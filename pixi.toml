@@ -1,0 +1,19 @@
+[workspace]
+authors = ["John Lee"]
+channels = ["conda-forge"]
+name = "wsdg-ai-collaboration"
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+version = "0.1.0"
+
+[dependencies]
+pre-commit = ">=4.6.2,<5"
+python = ">=3.12,<3.15"
+
+[pypi-dependencies]
+snapper-fmt = ">=0.10.0,<0.11"
+
+[tasks]
+format = "snapper --in-place docs/*.md talk-concepts/*.md"
+format-check = "snapper --check docs/*.md talk-concepts/*.md"
+hooks-install = "pre-commit install"
+check = "pre-commit run --all-files"
