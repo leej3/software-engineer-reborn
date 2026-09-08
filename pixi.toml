@@ -8,11 +8,16 @@ version = "0.1.0"
 [dependencies]
 pre-commit = ">=4.6.2,<5"
 python = ">=3.12,<3.15"
+quarto = ">=1.9.38,<2"
 
 [pypi-dependencies]
 snapper-fmt = ">=0.10.0,<0.11"
 
 [tasks]
+slides-preview = "quarto preview slides --no-browser"
+slides-build = "quarto render slides"
+slides-format = "snapper --format markdown --in-place slides/*.qmd"
+slides-format-check = "snapper --format markdown --check slides/*.qmd"
 format = "snapper --in-place docs/*.md talk-concepts/*.md"
 format-check = "snapper --check docs/*.md talk-concepts/*.md"
 hooks-install = "pre-commit install"

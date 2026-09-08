@@ -3,6 +3,6 @@ repos:
     hooks:
       - id: snapper
         name: Format prose with Snapper
-        entry: pixi run snapper --in-place
+        entry: pixi run snapper --format markdown --in-place
         language: system
-        files: \.(md|markdown)$
+        files: \.(md|markdown|qmd)$

@@ -1,1 +1,4 @@
 .pixi/
+.DS_Store
+slides/.quarto/
+slides/_site/

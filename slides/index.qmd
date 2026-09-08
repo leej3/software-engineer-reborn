@@ -1,0 +1,338 @@
+---
+pagetitle: The Software Engineer Reborn
+---
+
+## The Software Engineer Reborn
+
+- A vision of human–AI collaboration.
+- What happens to the role—and to the people who chose it?
+
+::: {.notes}
+
+Open with the two meanings of rebirth: a changing profession and a personal transition.
+
+:::
+
+## AI is going to transform society
+
+- I can take ideas much further than I could before.
+- More people can create useful software.
+- More kinds of work can become software.
+
+::: {.notes}
+
+The expansion of capability is why I take this seriously.
+
+:::
+
+## Huge possibilities. Consequential choices.
+
+- What becomes possible?
+- Who pays for the infrastructure and resource use?
+- Who receives the benefits?
+- What risks are we creating?
+
+::: {.notes}
+
+Brief context: optimism, misuse, environmental costs, and the distribution of gains.
+
+:::
+
+## The title can survive while the work changes
+
+- The role: what we do, what employers need, what earns compensation.
+- The person: what we enjoy, what we value, who we understand ourselves to be.
+
+::: {.notes}
+
+A sufficiently changed role can feel like a different profession.
+
+:::
+
+## How I arrived here
+
+- Neuroscience → scientific software → infrastructure and backend → AI-assisted full-stack work.
+
+::: {.notes}
+
+Tell the personal trajectory through the changes in what I could do.
+
+:::
+
+## The boundaries of my work expanded
+
+- Front ends.
+  Infrastructure.
+  Browser testing.
+  Deployment.
+- I can carry an idea much further toward a complete product.
+
+::: {.notes}
+
+Use one or two existing artifacts to make that expanded range visible.
+
+:::
+
+## What becomes worth attempting?
+
+- A useful idea no longer has to justify months of learning a new stack.
+- Smaller, more personal problems become worth solving.
+
+::: {.notes}
+
+The car-comparison dashboard is one possible example; choose the artifact I most want to discuss.
+
+:::
+
+## Why engineering was satisfying
+
+- I could immerse myself in a difficult problem.
+- The effort produced understanding.
+- I could build a solution and explain why it worked.
+- That expertise was useful and valued.
+
+::: {.notes}
+
+Establish what the old way of working gave me before describing what changed.
+
+:::
+
+## Expanded capability, lost mastery
+
+- I can produce work across more domains.
+- I retain less of its detail.
+- Some of the pleasure of personally solving the problem is gone.
+
+::: {.notes}
+
+Talk about the change in satisfaction and the attempt to develop mastery of this new way of working.
+
+:::
+
+## Quality ≠ ownership
+
+- The artifact may be better.
+- It can still be harder to explain, defend, caveat, or fully stand behind.
+
+::: {.notes}
+
+This is a central tension in the new work.
+
+:::
+
+## The exhaustion is different
+
+- More possibilities to explore.
+- More unfamiliar work to assess.
+- More decisions to make.
+- A collaborator with no natural stopping point.
+
+::: {.notes}
+
+Connect cognitive saturation to the expansion of work, context, and responsibility.
+
+:::
+
+## What does an engineer contribute?
+
+- Making: How can this be built?
+- Directing: What should happen next?
+- Deciding: Which outcomes and tradeoffs matter?
+- Connecting: What will people understand, trust, and use?
+
+::: {.notes}
+
+These dispositions give us a way to examine the changing balance of our work.
+
+:::
+
+## What we bring with us
+
+- Decomposing ambiguous problems.
+- Working through abstractions.
+- Testing assumptions against reality.
+- Investigating failures.
+- Making systems dependable.
+
+::: {.notes}
+
+Our experience supplies useful starting habits for the transition.
+
+:::
+
+## What we need to develop
+
+- Understanding the domain and the people affected.
+- Choosing worthwhile outcomes.
+- Coordinating expertise.
+- Communicating intent and uncertainty.
+
+::: {.notes}
+
+AI also lets domain experts approach implementation from the other direction.
+
+:::
+
+## Knowing what matters and making it work
+
+- Outcome: Does this solve a worthwhile problem?
+- System: Can it be operated, evaluated, maintained, and relied upon?
+
+::: {.notes}
+
+Engineers and domain experts increasingly need parts of each other’s expertise.
+
+:::
+
+## Two productive patterns
+
+- The knowledge worker: use AI to produce a particular artifact.
+- The systems engineer: build AI into a capability that performs a class of tasks repeatedly.
+
+::: {.notes}
+
+The distinction helps explain both the opportunities and the work of assessing quality.
+
+:::
+
+## Making an artifact easier to assess
+
+- Preserve sources, assumptions, calculations, tests, and decisions.
+- Make the important questions easy for an expert to investigate.
+
+::: {.notes}
+
+The work includes making the result assessable without independently reconstructing everything.
+
+:::
+
+## Engineering a scalable capability
+
+- Define a sufficiently bounded task.
+- Evaluate behavior across cases.
+- Establish operating limits.
+- Improve reliability and economics.
+
+::: {.notes}
+
+This is another direction for engineering: turning flexible intelligence into a usable, repeatable service.
+
+:::
+
+## The code has moved into the background
+
+- In an IDE, code occupied the center of my attention.
+- Now I work through projects, conversations, instructions, artifacts, and decisions.
+
+::: {.notes}
+
+Begin the workspace walkthrough here.
+Show the environment as it exists.
+
+:::
+
+## The expanding set of threads I track
+
+- Several projects.
+- Several lines of work within a project.
+- Explorations, alternatives, and implementation in parallel.
+- Results returning for attention.
+
+::: {.notes}
+
+Show how work branches and how I move between it.
+
+:::
+
+## Compression becomes central
+
+- What does the agent need to know?
+- What do I need to understand?
+- What must survive when we return to this work?
+
+::: {.notes}
+
+Show the role of project context, instructions, skills, and short records of decisions.
+
+:::
+
+## How I keep a relationship to the work
+
+- Artifacts and version history.
+- Milestones and review.
+- Permissions and execution boundaries.
+- Knowing what I am ready to accept.
+
+::: {.notes}
+
+Use the workspace to connect selective ownership with the practical choices I make.
+End the walkthrough.
+
+:::
+
+## Would I choose this work again?
+
+- Impact.
+  Compensation.
+  Enjoyment.
+- Lifestyle.
+  Community.
+  Agency.
+
+::: {.notes}
+
+The disruption prompts a fresh look at the reasons for choosing this career; my priorities have also changed over time.
+
+:::
+
+## Different directions are opening
+
+- A broader knowledge worker.
+- Directing and refining AI-assisted production.
+- Engineering bounded, scalable AI systems.
+- Conventional development where security and direct control matter.
+
+::: {.notes}
+
+Which activities fit my strengths, interests, and preferred working life?
+
+:::
+
+## We still need other people
+
+- Expertise beyond our own.
+- People who can challenge and assess our work.
+- Shared standards.
+- Community and belonging.
+
+::: {.notes}
+
+Include the role of experienced and retired engineers in sharing judgment and helping people learn.
+
+:::
+
+## Starting over carries a cost
+
+- The skills I have accumulated.
+- The work I enjoy.
+- The identity I have built.
+- The future I had expected.
+
+::: {.notes}
+
+Allow room for grief and self-compassion alongside curiosity and excitement.
+
+:::
+
+## Act while there are choices to explore
+
+- Try the new ways of working.
+- Notice what is changing around you.
+- Reassess what you want.
+- Make room to change direction.
+
+::: {.notes}
+
+Close on agency: bend with the change rather than discovering belatedly that the reasons for choosing the work no longer hold.
+
+:::
