@@ -366,29 +366,66 @@ This is a legislative proposal.
 
 :::
 
-## A favorable starting position
+## A favorable starting position {.engineer-advantages}
 
-- **We turn intent into specifications.** Break a vague goal into parts, constraints, and observable behavior.
-- **Git makes experimentation recoverable.** Branch, compare, review, merge, roll back—across documents, code, and agents.
-- **Text becomes programmable.** Search, extract, transform, and validate whole collections of files with code.
-- **We know how to test a convincing answer.** Check behavior, reproduce failures, and inspect what changed.
-- **We turn a useful result into a reusable tool.** Capture the method so the next run is cheaper and easier to check.
+- **Make intent precise.** Decompose the goal, choose a useful representation, and define what success looks like.
+- **Diagnose instead of guessing.** Is the problem in the instructions, missing context, the environment, or the implementation?
+  Design a check.
+- **Choose where AI belongs.** Combine model judgment with code, queries, and fixed rules.
+  Decide what to delegate and what to verify.
+
+::: {.advantage-credit}
+
+[CS skills & vibe coding · CHI 2026](https://arxiv.org/html/2603.14133v1#S10) · [Why Johnny Can't Prompt · CHI 2023](https://people.eecs.berkeley.edu/~bjoern/papers/zamfirescu-johnny-chi2023.pdf) · [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+
+:::
 
 ::: {.notes}
 
-Git feels underrated to me here.
-When AI makes it cheap to generate large changes, being able to isolate an experiment, inspect a diff, keep a known-good version, and recover becomes especially valuable.
-Separate branches or worktrees let agents work independently; reviewing and merging their changes is still a coordination task.
-The same habits apply to Markdown, configuration, prompts, and other text artifacts.
+The vibe-coding paper proposes problem decomposition, algorithmic thinking, structured specification, and technical vocabulary as possible explanations for the CS advantage.
+It also reports an association between clearer, better-organized prompts and better outcomes.
+These are proposed mechanisms, not demonstrated causes.
 
-Being able to manipulate text with code extends this advantage beyond software development.
-For example, extract every citation from a set of documents, apply a consistent terminology change, compare versions, or validate hundreds of records against a schema.
-AI can help write the transformation; the script makes the operation explicit, repeatable, and testable.
+Why Johnny Can't Prompt observed opportunistic experimentation and users accepting success in one conversational context without testing others.
+An engineering habit is to distinguish possible causes, change something deliberately, and check whether the explanation holds.
 
-These are plausible explanations for an engineering advantage, not individual mechanisms tested by the study on the next slide.
-That study measured CS achievement, writing skill, and general cognitive ability; it did not separately test Git proficiency or text-processing skills.
+Anthropic's Building effective agents distinguishes code-directed workflows from agents that choose their own steps.
+The architectural choice matters: an exact calculation, a database lookup, and an ambiguous interpretation need different mechanisms.
 
 Adapted and expanded from [A Favorable Starting Position](https://software-engineer-reborn-atlas.johnlee3728739.chatgpt.site/sources/08-a-favorable-starting-position#why-software-engineers-may-be-well-positioned).
+
+:::
+
+## We turn unreliable components into useful systems {.engineer-advantages}
+
+- **Build the conditions for success.** Give agents useful tools, relevant context, explicit tests, and a working environment.
+- **Make experimentation recoverable.** Git gives us branches, diffs, checkpoints, and rollback—for documents and prompts as well as code.
+- **Make improvements compound.** Use code to manipulate text and data.
+  Turn a recurring task into a reusable tool, then improve that tool.
+
+::: {.advantage-credit}
+
+[Effective harnesses for long-running agents · Anthropic](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) · [Code execution with MCP · Anthropic](https://www.anthropic.com/engineering/code-execution-with-mcp)
+
+:::
+
+::: {.notes}
+
+Engineers can improve the machinery through which they use AI.
+A recurring difficulty can become a tool, and that improvement can benefit every future task.
+This is my synthesis of an advantage that can compound.
+
+Anthropic's long-running-agent report explicitly drew on human engineering practices: feature lists, environment setup, progress records, Git commits, and end-to-end testing.
+Git and progress records helped agents recover working states and avoid repeating work.
+Separate branches or worktrees also allow independent experiments, with review and merging remaining coordination tasks.
+
+Text manipulation is part of a broader ability to change a problem's representation.
+Extract citations from a collection of documents, apply a terminology change, compare versions, or validate records against a schema.
+AI can help write a transformation; code makes the operation explicit, repeatable, and testable.
+Anthropic's MCP report illustrates using code to filter and transform tool results before they enter the model's context.
+
+These reports support the relevance of engineering practices.
+The study that follows measures CS achievement, writing skill, and cognitive ability; it does not separately test Git or text-processing proficiency.
 
 :::
 
