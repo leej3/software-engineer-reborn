@@ -43,6 +43,14 @@ $selection-bg: #dcebe5;
   max-width: 1050px;
 }
 
+.reveal .slides section > div.fragment > ul {
+  display: block;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0;
+  padding-left: 0.85em;
+}
+
 .reveal .slides li {
   padding-left: 0.2em;
   margin-bottom: 0.5em;
