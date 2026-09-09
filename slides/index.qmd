@@ -348,7 +348,7 @@ This is a legislative proposal.
 
 “This invention will produce forgetfulness in the minds of those who learn to use it, because they will not practice their memory … [the appearance of wisdom, not true wisdom.”]{.fragment fragment-index="1"}
 
-::: {.fragment fragment-index="1"}
+::: {.fragment fragment-index="2"}
 
 — Plato, Phaedrus 275a–b, Socrates recounting the myth of Theuth and Thamus, trans.
 Harold N. Fowler.
