@@ -633,47 +633,6 @@ The distinction helps explain both the opportunities and the work of assessing q
 
 :::
 
-## Measuring quality against requirements {.quality-evaluation}
-
-Quality means fitness for the task.
-Each requirement needs an observable check.
-
-| What can we check? | How do we assess it? |
-|:---|:---|
-| Structure, calculations, explicit rules | **Validators and tests** |
-| Answers with a known reference | **Reference comparison**: exact match, precision, recall |
-| Open-ended work | **Explicit rubric**: correctness, coverage, source support, clarity |
-| Subjective or consequential judgments | **Expert review**: compare alternatives against a criterion |
-| Evaluation at scale | **LLM judge**, calibrated against human judgments |
-
-::: {.quality-takeaway}
-
-Use the least subjective evaluator that can measure each property.
-
-:::
-
-::: {.notes}
-
-Adapted from our prior discussion of AI output quality, supplied for this talk.
-The evaluation chain is task, requirements, quality dimensions, observable criteria, evaluator, metric.
-Define the criteria before evaluating the output.
-
-Quality dimensions include correctness, completeness, relevance, groundedness or faithfulness, consistency, instruction adherence, reasoning and application, communication, and safety where applicable.
-Different dimensions require different evidence, and several evaluators may apply to the same output.
-A passing schema check establishes valid structure, not factual correctness.
-A citation's existence does not establish that it supports the claim.
-
-For a research summary, check whether it represents the major findings, attributes claims to the evidence, preserves uncertainty, and keeps conclusions within what the evidence supports.
-For subjective comparison, hide model identity and ask which output better satisfies a specific criterion.
-An LLM judge needs the task, source evidence, output, and rubric.
-Check its agreement with human labels and watch for position, verbosity, and self-preference biases.
-
-For a repeated system, examine pass rates, severe errors, variation across runs, task subtypes, and difficult edge cases.
-An average score can hide important failures.
-For an agent, also assess tool selection, evidence retrieval, unnecessary actions, failure detection, and recovery.
-These methods also support assessment of an individual artifact wherever its properties are testable.
-
-:::
 
 ## Evidence and calibrated confidence {.quality-map}
 
@@ -707,6 +666,61 @@ The aim is justified confidence in a particular artifact and its supporting evid
 This complements tests and evaluation sets for characterizing a system across many cases.
 
 :::
+
+## Operationalizing quality for AI output {.quality-evaluation}
+
+Example: AI extracts structured metadata from research documentation.
+
+| Requirement | Observable criterion | Evaluator | Metric |
+|:---|:---|:---|:---|
+| Valid structure | Output conforms to schema | Validator | Pass/fail |
+| Correct extraction | Values match the source | Reference labels / expert | Precision, recall, F1 |
+| Grounded | Each value has source support | Source review / calibrated judge | % supported |
+| Complete | Required information is present | Reference labels / expert | Recall |
+| Semantically valid | Relationships obey ontology | SHACL / rules | Violations |
+| Useful | Researcher can use it without correction | Researcher review | Acceptance / error rate |
+
+::: {.quality-takeaway}
+
+Define the criterion first.
+Use the least subjective evaluator that can measure it.
+
+:::
+
+::: {.notes}
+
+Adapted from our prior discussion of AI output quality and its research-metadata example.
+This operationalizes the preceding diagram: evaluations produce evidence that can support assurance and calibrated confidence.
+Keep the source passages, reference labels, validation results, and review decisions accessible alongside the output to improve assessability.
+
+Start with the task and its requirements, then choose observable criteria, evaluators, and metrics.
+Define acceptance thresholds before evaluation, according to the intended use and consequences of errors.
+The table is an evaluation design, not measured results.
+
+For extraction, precision is the proportion of extracted items that are correct, and recall is the proportion of required reference items recovered correctly.
+F1 combines precision and recall.
+Specify the unit of evaluation, such as fields or entities, and the matching rule.
+For groundedness, report the fraction of extracted values with supporting source evidence.
+Source support does not by itself establish that a source is true.
+For usefulness, define acceptance and what counts as an error before researcher review.
+
+Different dimensions require different evidence, and several evaluators may apply to the same output.
+A passing schema check establishes valid structure, not factual correctness.
+SHACL can validate graph constraints that encode selected ontology requirements.
+It does not establish every aspect of semantic correctness.
+
+For open-ended work, use an explicit rubric covering observable properties such as major findings, attribution, preserved uncertainty, and conclusions that stay within the evidence.
+For subjective comparison, hide model identity and ask which output better satisfies a specific criterion.
+An LLM judge needs the task, source evidence, output, and rubric.
+Calibrate it against expert labels and check position, verbosity, and self-preference biases.
+
+For a repeated system, examine pass rates, severe errors, variation across runs, task subtypes, and difficult edge cases.
+An average score can hide important failures.
+For an agent, also assess tool selection, evidence retrieval, unnecessary actions, failure detection, and recovery.
+These methods also support assessment of an individual artifact wherever its properties are testable.
+
+:::
+
 
 ## Making an artifact easier to assess
 
