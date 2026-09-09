@@ -482,17 +482,7 @@ The study is correlational.
 
 ## The modern interface
 
-- Manages conversations, directories, worktrees seamlessly
-- More threads of work across many more projects
-- Blends all work together
-- Git is a core technology
-- Context management is the core challenge
-
-::: {.fragment}
-
-- ... and quality
-
-:::
+<ul> <li>Manages conversations, directories, worktrees seamlessly</li> <li>More threads of work across many more projects</li> <li>Blends all work together</li> <li>Git is a core technology</li> <li>Context management is the core challenge</li> <li class="fragment">... and quality</li> </ul>
 
 ::: {.notes}
 
