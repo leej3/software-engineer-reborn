@@ -1,4 +1,4 @@
----
+  ---
 pagetitle: The Software Engineer Reborn
 ---
 
@@ -8,17 +8,17 @@ pagetitle: The Software Engineer Reborn
 
 ::: {.notes}
 
-The talk is an exploration of what’s happening to me, the role, and the world.
-I’ve tried to anchor it in my experience but I couldn’t help pontificate a little.
-Hopefully it is helpful regardless of what stage you are in your career as a software engineer, you learn some tricks about using AI, and it provokes some thought about the interaction of AI with society.
+riffing on previous talk explore some of the latests updates and future directions this is an exploration of what the path forward looks like for those who until recently were known software engineers :::
 
-I'm optimistic.
-I have generally worked on the strategy of somewhat liking my work, and with some flexability there will always be work for people who are willing to work hard.
-I don’t want it to be doom and gloom.
-But don’t want to make light of the uncertainty, or to suggest that cause for fear and anxiety are not warranted.
-There is lots happening right now… and I will note that death is a pre-requisite  of rebirth.
 
-:::
+## Overview
+
+- How I got here
+- AI is good at doing stuff
+- Software engineers are good at using AI
+- It's hard to assess the quality of the output of AI
+- What are the roles of the future?
+- How do we think about our choices?
 
 
 ## LLMs timeline
@@ -371,7 +371,6 @@ Harold N. Fowler.
 
 ::: {.notes}
 
-Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
 
 of course it changes the brain. everything does software engineering does socrates' lamemt
 
@@ -381,13 +380,12 @@ of course it changes the brain. everything does software engineering does socrat
 
 ![](images/engineer-possibility.png){.support-illustration .nostretch fig-alt="An engineer building a small mechanical world at a workbench."}
 
-- We can't tell the future, we are prone to catastrophizing, we forget how capable we are.
+- Cognitive distortions: We can't tell the future, we are prone to catastrophizing, we forget how capable we are.
 - I am optimistic about the positive effects that AI and robotics can have on the world
 - I'm still clinging to the idea that software engineers become gods [↗](https://arxiv.org/abs/2603.14133)
 
 ::: {.notes}
 
-Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
 
 
 
@@ -475,7 +473,6 @@ Thorgeirsson, Weidmann & Su · CHI 2026 · [Paper, Table 3](https://arxiv.org/ht
 
 ::: {.notes}
 
-Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
 
 I think it matters what you are building... and how you are assessing quality.
 
@@ -523,7 +520,6 @@ skills, cloud, milestones, agent access/perms, vendor lock-in, worktrees
 
 ::: {.notes}
 
-Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
 
 
 :::
@@ -541,6 +537,15 @@ Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary
 ```
 
 :::
+
+::: {.notes}
+
+:::
+
+## Operationalizing quality assessment
+
+Task → requirements → quality dimensions → observable criteria → evaluator → metric
+
 
 ::: {.notes}
 
