@@ -753,15 +753,15 @@ Close directly on choosing work that fits the person's preferences under the cha
 
 ::: {.closing-alternatives}
 
-**Denial** · This will not fundamentally change me.
+**Denial:** This will not fundamentally change me.
 
-**Surrender** · Nothing I choose will matter.
+**Surrender:** Nothing I choose will matter.
 
 :::
 
 ::: {.closing-statement}
 
-**Agency**
+**Agency:**
 
 I cannot know the outcome, but I can still participate deliberately in determining what happens next.
 
