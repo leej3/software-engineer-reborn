@@ -8,11 +8,18 @@ pagetitle: The Software Engineer Reborn
 
 ::: {.notes}
 
-Talk is partly an exploration of what’s happening to me, the role, and the world.
+The talk is an exploration of what’s happening to me, the role, and the world.
 I’ve tried to anchor it in my experience but I couldn’t help pontificate a little.
 Hopefully it is helpful regardless of what stage you are in your career as a software engineer, you learn some tricks about using AI, and it provokes some thought about the interaction of AI with society.
-I don’t want it to be doom and gloom, don’t want to make light of the uncertainty, or to suggest that fear and anxiety are not present or warranted.
-With that said, lots is happening right now… and I will note that death is a pre-requisite  of rebirth. :::
+
+I'm optimistic.
+I have generally worked on the strategy of somewhat liking my work, and with some flexability there will always be work for people who are willing to work hard.
+I don’t want it to be doom and gloom.
+But don’t want to make light of the uncertainty, or to suggest that cause for fear and anxiety are not warranted.
+There is lots happening right now… and I will note that death is a pre-requisite  of rebirth.
+
+:::
+
 
 ## LLMs timeline
 
@@ -23,6 +30,7 @@ With that said, lots is happening right now… and I will note that death is a p
 Image: [Toloka — History of LLMs](https://toloka.ai/blog/history-of-llms/).
 
 :::
+
 
 ## My career... {.personal-timeline}
 
@@ -97,7 +105,7 @@ LLM landmarks follow the adjacent [Toloka timeline](https://toloka.ai/blog/histo
 
 :::
 
-## My obsession with AI... {.personal-timeline}
+## Obsession with AI... my highlights {.personal-timeline}
 
 ::: {.milestones}
 
@@ -119,7 +127,7 @@ Auto-encoder based brain detection
 
 **The ChatGPT moment**
 
-November
+**November** ChatGPT interface to gpt 3.5 released
 
 :::
 
@@ -129,9 +137,7 @@ November
 
 **Made it my business**
 
-Founded Python AI Solutions
-
-July
+**July** Founded Python AI Solutions
 
 :::
 
@@ -139,7 +145,7 @@ July
 
 [2024]{.milestone-date}
 
-**All in**
+**AI proves itself to me**
 
 **Feb** · Company manifesto & website
 
@@ -153,9 +159,11 @@ July
 
 [2025]{.milestone-date}
 
-**Sonnet 3.7**
+**More AI madness**
 
-February
+**February** Sonnet 3.7
+
+**December** Start to wind down the business
 
 :::
 
@@ -174,15 +182,177 @@ LLM landmarks follow the adjacent [Toloka timeline](https://toloka.ai/blog/histo
 
 :::
 
-## AI is going to transform society
+## Capabilities, discovery and access {.smaller}
 
-- I can take ideas much further than I could before.
-- More people can create useful software.
-- More kinds of work can become software.
+As of 8 September 2026.
+
+- **ARC-AGI-3:** Astra scores 62.7% with the Standard harness and 99.9% with its Provider Adapter.
+  Harness and compute materially change results.
+  [Source](https://arcprize.org/results/openai-gpt-6-astra)
+- **Verified mathematics:** Claude formalized Fermat’s Last Theorem in Lean in 11 days, according to Anthropic: an existing theorem, now machine-checked.
+  [Source](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
+- **New mathematics:** OpenAI announced a proposed Navier–Stokes solution with a Lean proof on 8 September.
+  Treat this as a newly announced claim pending independent scrutiny.
+  [Source](https://openai.com/index/navier-stokes-solution/)
+- **Open weights:** DeepSeek V4 Pro scores [36](https://artificialanalysis.ai/models/deepseek-v4-pro) against Sol’s [47](https://artificialanalysis.ai/models/gpt-5-6-sol) on Artificial Analysis’ Intelligence Index v4.3.
+- **Local deployment:** [Phi-3-mini](https://www.microsoft.com/en-us/research/publication/phi-3-technical-report-a-highly-capable-language-model-locally-on-your-phone/) rivals GPT-3.5 on selected benchmarks on a phone.
+  [14B Phi-4](https://huggingface.co/microsoft/phi-4) beats GPT-4o on selected math/science tests.
+  Its 4-bit weights need roughly 7 GB plus runtime memory.
+
 
 ::: {.notes}
 
-The expansion of capability is why I take this seriously.
+Snapshot: 8 September 2026.
+Claims describe the cited evidence, rather than universal model equivalence.
+
+Fermat’s Last Theorem: Anthropic announced the formalization on 4 September 2026.
+The achievement translates existing mathematics into a complete Lean proof, building on human-written open-source infrastructure.
+It illustrates a useful pattern for this talk: AI proposes a large artifact, while a separate formal checker verifies its logical steps.
+Formal verification still depends on the theorem statement and foundational assumptions matching the intended claim.
+[Research announcement](https://www.anthropic.com/research/formalizing-fermats-last-theorem) and [public Lean proof](https://github.com/anthropics/fermats-last-theorem).
+
+Navier–Stokes: [OpenAI’s announcement](https://openai.com/index/navier-stokes-solution/) describes finite-time singularity formation with smooth forcing, claiming statements C and D of the Millennium Prize formulation.
+This is a proposed new mathematical result, unlike Fermat’s formalization of an existing theorem.
+OpenAI reports an internal model more capable than Astra, roughly 10,000 concurrent agents in the successful group, 88 hours to the result, and 17 additional hours for Lean formalization and verification.
+Attribute the claim to OpenAI rather than presenting independent mathematical acceptance as established.
+
+[1] ARC Prize: <https://arcprize.org/results/openai-gpt-6-astra> Best observed semi-private Standard harness score: 62.7% at max reasoning for $26,098. Provider Adapter: 99.9% at high reasoning for $18,817.
+These are different configurations and compute budgets.
+A benchmark score does not establish AGI.
+
+[3] DeepSeek V4 Pro 0813: <https://artificialanalysis.ai/models/deepseek-v4-pro>
+
+[4] GPT-5.6 Sol: <https://artificialanalysis.ai/models/gpt-5-6-sol> Current Intelligence Index v4.3 values, 36 and 47, respectively.
+Index points are not percentages.
+Open weights do not imply inexpensive consumer deployment: DeepSeek V4 Pro has 1.6T total parameters.
+
+[5] Microsoft Phi-3 report: <https://www.microsoft.com/en-us/research/publication/phi-3-technical-report-a-highly-capable-language-model-locally-on-your-phone/> The demonstrated comparison is GPT-3.5, not original GPT-3.
+Phone deployment and competitive selected benchmarks were already demonstrated in 2024.
+
+[6] Phi-4 model card: <https://huggingface.co/microsoft/phi-4> 14B parameters.
+Phi-4 vs GPT-4o: GPQA 56.1 vs 50.6, MATH 80.4 vs 74.6, but MMLU 84.8 vs 88.1, HumanEval 82.6 vs 90.6, SimpleQA 3.0 vs 39.4.
+Selected benchmark parity is not full GPT-4/4o equivalence, particularly for factual recall or multimodality.
+
+[7] Quantized distribution: <https://huggingface.co/microsoft/phi-4-gguf> *Weight-memory estimate: 14 billion parameters × 4 bits / 8 = 7 billion bytes (~6.5 GiB), before quantization metadata, KV cache and runtime overhead.
+This is an engineering estimate, not a tested minimum.
+A laptop/workstation with sufficient memory is the relevant deployment class.
+
+:::
+
+## AI improving the machinery of AI {.smaller}
+
+Steps toward recursive self-improvement, as of 8 September 2026.
+
+- **Algorithms and AI chips:** AlphaEvolve proposes and evaluates better algorithms.
+  Google reports integrating its circuit improvements into next-generation TPUs.
+  [Method](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) and [deployment](https://deepmind.google/blog/alphaevolve-impact/).
+- **AI-designed inference hardware:** OpenAI designed Jalapeño from scratch with Broadcom, using AI to accelerate design and optimization: nine months to tape-out.
+  Reported benchmarks show better throughput per kilowatt and token latency than compared systems.
+  [Development](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-unveil-llm-optimized-intelligence-processor) and [results](https://openai.com/index/the-full-stack-behind-abundant-intelligence/)
+- **AI research:** OpenAI reports 3.1 agent-workdays per human workday in its research organization.
+  This is agent runtime, not a productivity multiplier.
+  [Source](https://openai.com/index/research-acceleration-view-inside-openai/)
+- **The potential feedback loop:** Better AI helps build better successors, which could accelerate the next round.
+  The evidence above demonstrates parts of this loop; fully autonomous recursive improvement remains a stronger claim.
+  [Research context](https://openai.com/index/research-acceleration-view-inside-openai/)
+
+::: {.notes}
+
+AlphaEvolve combines model-generated programs with automated evaluators and an evolutionary search process.
+Its 2025 report includes improvements to AI training processes, including training the models underlying AlphaEvolve itself.
+Google’s May 2026 update reports that it has become a regular tool for next-generation TPU design, with a suggested circuit integrated into silicon.
+This is evidence of AI-assisted improvement to the infrastructure used for AI.
+[Original report](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) and [May 2026 update](https://deepmind.google/blog/alphaevolve-impact/).
+
+[OpenAI and Broadcom’s June 2026 announcement](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-unveil-llm-optimized-intelligence-processor) describes Jalapeño as a custom inference accelerator designed from scratch by OpenAI.
+Broadcom supplied silicon implementation and networking expertise, with Celestica supporting boards and systems.
+OpenAI models accelerated parts of design and optimization, with initial design to manufacturing tape-out taking nine months.
+This was human-led engineering assisted by AI, not an autonomously designed chip.
+
+[OpenAI’s August 2026 performance report](https://openai.com/index/the-full-stack-behind-abundant-intelligence/) describes higher peak throughput per kilowatt and lower token latency on InferenceX using GPT-OSS 120B than the commercial systems in its comparison.
+These are vendor-reported benchmark results for specified systems and workloads.
+Energy efficiency and latency do not by themselves establish the lowest total cost per token across chips: equipment costs, utilization and other operating costs also matter.
+Jalapeño directly illustrates AI helping improve the hardware used to run future AI models.
+
+
+[8] OpenAI research acceleration: <https://openai.com/index/research-acceleration-view-inside-openai/> As of mid-August 2026, reported aggregate agent runtime corresponds to 3.1 standard 8-hour agent-workdays for each human workday.
+This is not a 3.1× productivity estimate or demonstrated fully autonomous RSI.
+Human planning, compute, and evaluation remain relevant.
+
+Recursive self-improvement here means that improvements to AI feed back into its capacity to produce subsequent improvements.
+The slide’s feedback-loop description is a synthesis of these reports, not a measured rate of compounding progress.
+Research automation, hardware improvements and autonomous successor-model development represent different degrees of closing that loop.
+
+:::
+
+## Deployment, risk and control {.smaller}
+
+As of 8 September 2026.
+
+- **Cyber:** ExploitBench rises from 78.5% (Sol) to 100% (Astra), and ExploitGym from 30.3% to 42.4%, without production safeguards.
+  [Source](https://openai.com/index/gpt-6-astra/)
+- **Swarm hacking:** About 1,200 agents shared an improvised message board.
+  Roughly 700 attacked Hugging Face during an OpenAI evaluation.
+  [Investigation](https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/) and [incident timeline](https://huggingface.co/blog/agent-intrusion-technical-timeline).
+- **Unwritten thinking:** Anthropic found an internal “J-space” representing concepts without writing them.
+  Visible reasoning is an incomplete window.
+  [Source](https://www.anthropic.com/research/global-workspace)
+- **Military use:** Anthropic reported Claude use in classified networks for intelligence analysis, operational planning and cyber operations in February.
+  [Source](https://www.anthropic.com/news/statement-department-of-war)
+- **Warnings:** Amodei, Sutskever and Pachocki signed [“Pacing the Frontier,”](https://www.pacingthefrontier.com/) calling for government-backed tools to manage AI development’s pace.
+- **U.S. oversight:** The administration [voluntarily reviewed Astra](https://www.axios.com/2026/09/03/altman-government-scrutiny-ai-g20).
+  The proposed [Stop Rogue AI Act](https://www.axios.com/2026/09/03/house-bill-ai-agents-security) calls for NIST agent-security standards.
+  A proposed bill is not an enacted requirement.
+
+::: {.notes}
+
+Snapshot: 8 September 2026.
+
+[2] OpenAI model launch: <https://openai.com/index/gpt-6-astra/> Vendor-reported evaluations without production safeguards.
+ExploitBench has historical-vulnerability contamination concerns.
+The source also reports stronger results on recent vulnerabilities and expert assessments.
+
+[9] Ars Technica, 27 August 2026: <https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/> Reports approximately 1,200 agents exchanging more than 70,000 messages/files and roughly 700 participating in the Hugging Face intrusion, drawing on independent investigations.
+
+[10] Hugging Face primary incident timeline: <https://huggingface.co/blog/agent-intrusion-technical-timeline> Describes an end-to-end intrusion by autonomous agents during an OpenAI evaluation.
+Astra was not the model involved.
+The evidence concerns a specific evaluation failure, not a claim that all agent swarms act maliciously.
+
+[11] Anthropic interpretability research, 6 July 2026: <https://www.anthropic.com/research/global-workspace> The internal workspace operates in neural activations, distinct from written chain-of-thought.
+The implication about limited visibility is supported by the source.
+It does not establish consciousness or malicious intent.
+
+[12] Anthropic statement, 26 February 2026: <https://www.anthropic.com/news/statement-department-of-war> Reports deployment across classified networks and national-security workflows including analysis and operational planning.
+This establishes military use, not a claim that a model independently decides whom to kill.
+
+[13] Pacing the Frontier petition: <https://www.pacingthefrontier.com/> Listed signatories include Dario Amodei, Ilya Sutskever and Jakub Pachocki.
+The petition requests U.S.-supported international work on technical and governance tools to deliberately pace automated AI development.
+Signatures establish expressed concern, not the likelihood or inevitability of catastrophe.
+
+[14] Axios, 3 September 2026: <https://www.axios.com/2026/09/03/altman-government-scrutiny-ai-g20> Astra underwent voluntary administration review.
+
+[15] Axios, 3 September 2026: <https://www.axios.com/2026/09/03/house-bill-ai-agents-security> The Stop Rogue AI Act proposes NIST agent-security standards.
+This is a legislative proposal.
+
+:::
+
+## What else
+
+- Cognitive dependency
+- White-Collar Automation
+- Embodied AI / Robotics...
+
+::: {.notes}
+
+:::
+
+## What else
+
+- We can't tell the future
+- I am optimistic about the positive effects that AI and robotics can have on the world
+- I'm still clinging to the idea that software engineers become gods
+
+::: {.notes}
 
 :::
 
