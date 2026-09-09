@@ -5,11 +5,11 @@ $presentation-font-size-root: 34px;
 $presentation-heading-font-weight: 600;
 $presentation-heading-line-height: 1.12;
 $presentation-h2-font-size: 1.55em;
-$body-bg: #ffffff;
-$body-color: #293542;
-$presentation-heading-color: #152536;
-$link-color: #365e78;
-$selection-bg: #dce8f0;
+$body-bg: #f6f3ec;
+$body-color: #35494a;
+$presentation-heading-color: #174c4f;
+$link-color: #287478;
+$selection-bg: #dcebe5;
 
 /*-- scss:rules --*/
 .reveal .slides {
@@ -33,7 +33,7 @@ $selection-bg: #dce8f0;
   width: 64px;
   height: 4px;
   margin-top: 0.42em;
-  background: #557c94;
+  background: #b56a43;
 }
 
 .reveal .slides section > ul {
@@ -50,12 +50,12 @@ $selection-bg: #dce8f0;
 }
 
 .reveal .slides li::marker {
-  color: #557c94;
+  color: #b56a43;
   font-size: 0.7em;
 }
 
 .reveal strong {
-  color: #152536;
+  color: #174c4f;
   font-weight: 600;
 }
 
@@ -73,7 +73,7 @@ $selection-bg: #dce8f0;
 .reveal .slides #the-software-engineer-reborn > ul {
   list-style: none;
   padding: 0;
-  color: #526170;
+  color: #607371;
   font-size: 1.05em;
 }
 
@@ -106,35 +106,144 @@ $selection-bg: #dce8f0;
   #two-productive-patterns,
   #would-i-choose-this-work-again
 ) > ul > li {
-  border-top: 1px solid #c8d3dc;
+  border-top: 1px solid #c5d5cf;
   padding: 0.65em 0 0;
   margin: 0;
 }
 
-.reveal .footer {
-  text-align: left;
-  left: 4%;
-  bottom: 18px;
-  font-size: 15px;
-  color: #687583;
-}
-
-.reveal .footer a {
-  color: inherit;
-}
-
 .reveal .slide-number {
-  color: #687583;
+  color: #607371;
   font-size: 15px;
+  top: auto !important;
   right: 4%;
-  bottom: 18px;
+  bottom: 18px !important;
 }
 
 .reveal .progress {
   height: 2px;
-  color: #557c94;
+  color: #b56a43;
 }
 
 .reveal .slide-menu-button {
   opacity: 0.5;
+}
+
+/* Use the full height for the portrait timeline; labels sit beside it. */
+.reveal .slides #llms-timeline {
+  height: 720px;
+  padding: 0;
+}
+
+.reveal .slides #llms-timeline h2 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  max-width: 190px;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.reveal .slides #llms-timeline h2::after {
+  display: none;
+}
+
+.reveal .slides #llms-timeline > img.timeline-figure {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 760px;
+  width: auto;
+  max-height: none;
+  max-width: none;
+  margin: 0;
+  object-fit: contain;
+}
+
+.reveal .slides #llms-timeline .image-credit {
+  position: absolute;
+  right: 0;
+  bottom: 24px;
+  max-width: 170px;
+  font-size: 16px;
+  text-align: right;
+  color: #607371;
+}
+
+/* Ivory paper, teal ink, and copper accents. */
+.reveal-viewport {
+  background: radial-gradient(ellipse at 100% 0%, #e3ece6 0%, transparent 48%),
+    linear-gradient(120deg, #faf7f0 0%, #f2f0e8 100%);
+}
+
+.reveal .slides section h2 {
+  max-width: 1100px;
+  font-weight: 650;
+}
+
+.reveal .slides section h2::after {
+  width: 88px;
+  height: 5px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #b56a43 0 36%, #8bb4a5 36% 100%);
+}
+
+.reveal a {
+  text-decoration: underline;
+  text-decoration-color: #91b6ab;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 1px;
+}
+
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  top: 22px;
+  right: 28px;
+  bottom: auto !important;
+  width: 72px;
+  height: 72px !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+.reveal .slides #the-software-engineer-reborn h2 {
+  max-width: 1000px;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 500;
+  font-size: 2.8em;
+  letter-spacing: -0.045em;
+}
+
+.reveal .slides #the-software-engineer-reborn h2::after {
+  margin-top: 0.45em;
+  width: 150px;
+}
+
+.reveal .slides :is(
+  #the-title-can-survive-while-the-work-changes,
+  #knowing-what-matters-and-making-it-work,
+  #two-productive-patterns,
+  #would-i-choose-this-work-again
+) > ul > li {
+  border-top: 3px solid #8bb4a5;
+}
+
+.reveal .slides :is(
+  #the-title-can-survive-while-the-work-changes,
+  #knowing-what-matters-and-making-it-work,
+  #two-productive-patterns,
+  #would-i-choose-this-work-again
+) > ul > li:nth-child(even) {
+  border-color: #c58b68;
+}
+
+.reveal .slides #llms-timeline > img.timeline-figure {
+  border-radius: 6px;
+  box-shadow: 0 8px 32px #174c4f12;
+}
+
+.reveal .progress {
+  height: 3px;
 }

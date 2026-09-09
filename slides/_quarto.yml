@@ -9,6 +9,7 @@ format:
     theme:
       - simple
       - theme.scss
+    logo: images/reborn-engineer.png
     width: 1280
     height: 720
     margin: 0.08
@@ -19,4 +20,3 @@ format:
     incremental: false
     navigation-mode: linear
     history: true
-    footer: '[John Lee · CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
