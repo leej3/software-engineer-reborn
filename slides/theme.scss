@@ -247,3 +247,74 @@ $selection-bg: #dcebe5;
 .reveal .progress {
   height: 3px;
 }
+
+/* Editable personal timelines echo the adjacent LLM infographic. */
+.reveal .slides .personal-timeline .milestones {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0;
+  margin-top: 70px;
+}
+
+.reveal .slides .personal-timeline .milestone {
+  position: relative;
+  border-top: 4px solid #87aaa2;
+  padding: 30px 24px 0 0;
+  font-size: 23px;
+  line-height: 1.35;
+}
+
+.reveal .slides .personal-timeline .milestone::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -14px;
+  left: 0;
+  border: 3px solid #f6f3ec;
+  border-radius: 50%;
+  background: #57877d;
+}
+
+.reveal .slides .personal-timeline .milestone:nth-child(n+3) {
+  border-color: #c58b68;
+}
+
+.reveal .slides .personal-timeline .milestone:nth-child(n+3)::before {
+  background: #b56a43;
+}
+
+.reveal .slides .personal-timeline .milestone .milestone-date {
+  position: absolute;
+  top: -64px;
+  left: 0;
+  font-size: 30px;
+  font-weight: 650;
+  margin: 0;
+}
+
+.reveal .slides .personal-timeline .milestone p {
+  margin: 0 0 16px;
+}
+
+.reveal .slides .personal-timeline .milestone > p:nth-of-type(2) {
+  font-size: 27px;
+  line-height: 1.2;
+  min-height: 65px;
+}
+
+.reveal .slides .personal-timeline .future {
+  border-top-style: dashed;
+}
+
+.reveal .slides .personal-timeline .future > p:nth-of-type(2) strong {
+  color: #a25d3c;
+}
+
+.reveal .slides .personal-timeline .llm-landmarks {
+  margin-top: 38px;
+  padding-top: 18px;
+  border-top: 1px solid #b7ccc3;
+  font-size: 21px;
+  color: #607371;
+}

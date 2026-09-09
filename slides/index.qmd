@@ -14,6 +14,166 @@ Hopefully it is helpful regardless of what stage you are in your career as a sof
 I don’t want it to be doom and gloom, don’t want to make light of the uncertainty, or to suggest that fear and anxiety are not present or warranted.
 With that said, lots is happening right now… and I will note that death is a pre-requisite  of rebirth. :::
 
+## LLMs timeline
+
+![](images/llms-timeline-toloka.png){.timeline-figure fig-alt="Timeline of large language model development, from the Turing Test in 1950 through developments in 2025."}
+
+::: {.image-credit}
+
+Image: [Toloka — History of LLMs](https://toloka.ai/blog/history-of-llms/).
+
+:::
+
+## My career... {.personal-timeline}
+
+::: {.milestones}
+
+::: {.milestone}
+
+[2015]{.milestone-date}
+
+**Neuroscience PhD**
+
+Then data science & DevOps at NIMH, NIH-IRP
+
+2015–2020
+
+:::
+
+::: {.milestone}
+
+[2020]{.milestone-date}
+
+**Quansight**
+
+Software engineer at a global open-source consultancy
+
+2020–2023
+
+:::
+
+::: {.milestone}
+
+[2023]{.milestone-date}
+
+**Python AI Solutions**
+
+My own consultancy
+
+2023–2026
+
+:::
+
+::: {.milestone}
+
+[2026]{.milestone-date}
+
+**Dartmouth College**
+
+Research software engineer, Center for Open Neuroscience
+
+:::
+
+::: {.milestone .future}
+
+[2027]{.milestone-date}
+
+**What's a software engineer?**
+
+:::
+
+:::
+
+::: {.llm-landmarks}
+
+**LLM landmarks** · 2017 Transformers → 2022 ChatGPT → 2023 GPT-4 → 2024 Reasoning
+
+:::
+
+::: {.notes}
+
+The expansion of capability is why I take this seriously.
+LLM landmarks follow the adjacent [Toloka timeline](https://toloka.ai/blog/history-of-llms/).
+
+:::
+
+## My obsession with AI... {.personal-timeline}
+
+::: {.milestones}
+
+::: {.milestone}
+
+[2018]{.milestone-date}
+
+**AI in my research**
+
+Auto-encoder based brain detection
+
+[pbrain](https://github.com/leej3/pbrain)
+
+:::
+
+::: {.milestone}
+
+[2022]{.milestone-date}
+
+**The ChatGPT moment**
+
+November
+
+:::
+
+::: {.milestone}
+
+[2023]{.milestone-date}
+
+**Made it my business**
+
+Founded Python AI Solutions
+
+July
+
+:::
+
+::: {.milestone}
+
+[2024]{.milestone-date}
+
+**All in**
+
+**Feb** · Company manifesto & website
+
+**Jun** · Sonnet 3.5
+
+**Sep** · Wife tries to ban my obsessive chatter about AI
+
+:::
+
+::: {.milestone}
+
+[2025]{.milestone-date}
+
+**Sonnet 3.7**
+
+February
+
+:::
+
+:::
+
+::: {.llm-landmarks}
+
+**LLM landmarks** · 2017 Transformers → 2022 ChatGPT → 2023 GPT-4 → 2024 Reasoning
+
+:::
+
+::: {.notes}
+
+The expansion of capability is why I take this seriously.
+LLM landmarks follow the adjacent [Toloka timeline](https://toloka.ai/blog/history-of-llms/).
+
+:::
+
 ## AI is going to transform society
 
 - I can take ideas much further than I could before.
