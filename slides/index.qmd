@@ -5,13 +5,14 @@ pagetitle: The Software Engineer Reborn
 ## The Software Engineer Reborn
 
 - A vision of human–AI collaboration.
-- What happens to the role—and to the people who chose it?
 
 ::: {.notes}
 
-Open with the two meanings of rebirth: a changing profession and a personal transition.
-
-:::
+Talk is partly an exploration of what’s happening to me, the role, and the world.
+I’ve tried to anchor it in my experience but I couldn’t help pontificate a little.
+Hopefully it is helpful regardless of what stage you are in your career as a software engineer, you learn some tricks about using AI, and it provokes some thought about the interaction of AI with society.
+I don’t want it to be doom and gloom, don’t want to make light of the uncertainty, or to suggest that fear and anxiety are not present or warranted.
+With that said, lots is happening right now… and I will note that death is a pre-requisite  of rebirth. :::
 
 ## AI is going to transform society
 
