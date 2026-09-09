@@ -6,6 +6,7 @@ project:
 
 format:
   revealjs:
+    embed-resources: true
     theme:
       - simple
       - theme.scss
