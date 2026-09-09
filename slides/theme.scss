@@ -188,6 +188,55 @@ $selection-bg: #dcebe5;
   background: linear-gradient(90deg, #b56a43 0 36%, #8bb4a5 36% 100%);
 }
 
+.reveal .slides .phaedrus-quote {
+  position: relative;
+  max-width: 1000px;
+  margin: 1.45em auto 0;
+  padding: 0.95em 1.2em 0.8em;
+  border-top: 1px solid #8bb4a5;
+  border-bottom: 1px solid #c5d5cf;
+  color: #174c4f;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 1.25em;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.reveal .slides .phaedrus-quote > .fragment {
+  min-height: 1.2em;
+}
+
+.reveal .slides .phaedrus-quote > .fragment p {
+  margin: 0;
+}
+
+.reveal .slides .phaedrus-quote .quote-mark {
+  color: #b56a43;
+  font-size: 1.55em;
+  font-style: normal;
+  line-height: 0;
+  vertical-align: -0.08em;
+}
+
+.reveal .slides .phaedrus-quote .quote-open {
+  margin-right: 0.08em;
+}
+
+.reveal .slides .phaedrus-quote .quote-close {
+  margin-left: 0.06em;
+}
+
+.reveal .slides .phaedrus-quote > .fragment:last-child {
+  margin-top: 0.8em;
+  color: #607371;
+  font-family: $font-family-sans-serif;
+  font-size: 0.42em;
+  font-style: normal;
+  letter-spacing: 0.035em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
 .reveal a {
   text-decoration: underline;
   text-decoration-color: #91b6ab;
@@ -201,8 +250,8 @@ $selection-bg: #dcebe5;
   top: 22px;
   right: 28px;
   bottom: auto !important;
-  width: 72px;
-  height: 72px !important;
+  width: 144px;
+  height: 144px !important;
   max-width: none !important;
   max-height: none !important;
   object-fit: contain;
