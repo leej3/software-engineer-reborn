@@ -366,6 +366,32 @@ This is a legislative proposal.
 
 :::
 
+## A favorable starting position
+
+- **We turn intent into specifications.** Break a vague goal into parts, constraints, and observable behavior.
+- **Git makes experimentation recoverable.** Branch, compare, review, merge, roll back—across documents, code, and agents.
+- **Text becomes programmable.** Search, extract, transform, and validate whole collections of files with code.
+- **We know how to test a convincing answer.** Check behavior, reproduce failures, and inspect what changed.
+- **We turn a useful result into a reusable tool.** Capture the method so the next run is cheaper and easier to check.
+
+::: {.notes}
+
+Git feels underrated to me here.
+When AI makes it cheap to generate large changes, being able to isolate an experiment, inspect a diff, keep a known-good version, and recover becomes especially valuable.
+Separate branches or worktrees let agents work independently; reviewing and merging their changes is still a coordination task.
+The same habits apply to Markdown, configuration, prompts, and other text artifacts.
+
+Being able to manipulate text with code extends this advantage beyond software development.
+For example, extract every citation from a set of documents, apply a consistent terminology change, compare versions, or validate hundreds of records against a schema.
+AI can help write the transformation; the script makes the operation explicit, repeatable, and testable.
+
+These are plausible explanations for an engineering advantage, not individual mechanisms tested by the study on the next slide.
+That study measured CS achievement, writing skill, and general cognitive ability; it did not separately test Git proficiency or text-processing skills.
+
+Adapted and expanded from [A Favorable Starting Position](https://software-engineer-reborn-atlas.johnlee3728739.chatgpt.site/sources/08-a-favorable-starting-position#why-software-engineers-may-be-well-positioned).
+
+:::
+
 ## Even when the code is invisible, knowing computer science still helps. {.cs-evidence}
 
 100 students building apps with AI, without seeing or editing the code.
