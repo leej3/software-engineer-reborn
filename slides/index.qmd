@@ -463,19 +463,6 @@ The study is correlational.
 Brief context: optimism, misuse, environmental costs, and the distribution of gains.
 
 :::
-## Huge possibilities. Consequential choices.
-
-- What becomes possible?
-- Who pays for the infrastructure and resource use?
-- Who receives the benefits?
-- What risks are we creating?
-
-::: {.notes}
-
-Brief context: optimism, misuse, environmental costs, and the distribution of gains.
-
-:::
-
 ## How does one measure quality?
 
 - Human output
