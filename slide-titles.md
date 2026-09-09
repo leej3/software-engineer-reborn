@@ -47,32 +47,29 @@ Time:
 ## 15. Evidence and calibrated confidence
 Time:
 
-## 16. Operationalizing quality assessment
+## 16. Operationalizing quality for AI output
 Time:
 
-## 17. Operationalizing quality for AI output
+## 17. Two productive patterns
 Time:
 
-## 18. Two productive patterns
+## 18. Converging knowledge work
 Time:
 
-## 19. Converging knowledge work
+## 19. Making, directing, deciding, connecting
 Time:
 
-## 20. Making, directing, deciding, connecting
+## 20. A changed working day
 Time:
 
-## 21. A changed working day
+## 21. Craft and systems orientations
 Time:
 
-## 22. Craft and systems orientations
+## 22. Product and operational orientations
 Time:
 
-## 23. Product and operational orientations
+## 23. What fits you?
 Time:
 
-## 24. What fits you?
-Time:
-
-## 25. Developing in your chosen direction
+## 24. Developing in your chosen direction
 Time:

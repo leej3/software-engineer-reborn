@@ -463,3 +463,48 @@ $selection-bg: #dcebe5;
   max-height: 560px;
   margin: 0 auto;
 }
+
+/* Supporting illustrations stay clear of the quotation and study evidence. */
+.reveal .slides .support-illustration {
+  position: absolute;
+  object-fit: contain;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  mix-blend-mode: multiply;
+}
+
+.reveal .slides .image-memory .support-illustration {
+  top: 165px;
+  right: 0;
+  width: 260px;
+  height: 210px;
+}
+
+.reveal .slides .image-memory > ul {
+  max-width: 720px;
+}
+
+.reveal .slides :is(.image-possibility, .image-quality) .support-illustration {
+  top: 155px;
+  right: 0;
+  width: 430px;
+  height: 430px;
+}
+
+.reveal .slides :is(.image-possibility, .image-quality) > ul {
+  max-width: 650px;
+}
+
+.reveal .slides .image-evidence .support-illustration {
+  right: 0;
+  top: 235px;
+  width: 240px;
+  height: 280px;
+}
+
+.reveal .slides .image-evidence table {
+  width: 850px;
+  margin-left: 0;
+  font-size: 25px;
+}

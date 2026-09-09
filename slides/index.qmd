@@ -338,7 +338,9 @@ This is a legislative proposal.
 
 :::
 
-## What else
+## What else {.image-memory}
+
+![](images/future-work.png){.support-illustration .nostretch fig-alt="A person and robotic assistant collaborating in a future workspace."}
 
 - Cognitive dependency
 - White-Collar Automation
@@ -369,17 +371,23 @@ Harold N. Fowler.
 
 ::: {.notes}
 
+Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
+
 of course it changes the brain. everything does software engineering does socrates' lamemt
 
 :::
 
-## What else
+## What else {.image-possibility}
+
+![](images/engineer-possibility.png){.support-illustration .nostretch fig-alt="An engineer building a small mechanical world at a workbench."}
 
 - We can't tell the future, we are prone to catastrophizing, we forget how capable we are.
 - I am optimistic about the positive effects that AI and robotics can have on the world
 - I'm still clinging to the idea that software engineers become gods [↗](https://arxiv.org/abs/2603.14133)
 
 ::: {.notes}
+
+Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
 
 
 
@@ -448,7 +456,9 @@ The study that follows measures CS achievement, writing skill, and cognitive abi
 
 :::
 
-## Even when the code is invisible, knowing computer science still helps. {.cs-evidence}
+## Even when the code is invisible, knowing computer science still helps. {.cs-evidence .image-evidence}
+
+![](images/invisible-code.png){.support-illustration .nostretch fig-alt="A person examining the inner mechanisms of a device."}
 
 100 students building apps with AI, without seeing or editing the code.
 
@@ -464,6 +474,8 @@ Thorgeirsson, Weidmann & Su · CHI 2026 · [Paper, Table 3](https://arxiv.org/ht
 :::
 
 ::: {.notes}
+
+Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
 
 I think it matters what you are building... and how you are assessing quality.
 
@@ -501,13 +513,17 @@ skills, cloud, milestones, agent access/perms, vendor lock-in, worktrees
 :::
 
 
-## How does one measure quality?
+## How does one measure quality? {.image-quality}
+
+![](images/blind-assessment.png){.support-illustration .nostretch fig-alt="A reviewer compares a working bridge design with an attractive bridge that fails to span the gap."}
 
 - Human output
 - AI output
 - Is there a difference?
 
 ::: {.notes}
+
+Illustration generated with OpenAI ImageGen; conceptual artwork, not documentary evidence.
 
 
 :::
