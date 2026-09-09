@@ -1,0 +1,140 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Aptos", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$presentation-heading-font: $font-family-sans-serif;
+$presentation-font-size-root: 34px;
+$presentation-heading-font-weight: 600;
+$presentation-heading-line-height: 1.12;
+$presentation-h2-font-size: 1.55em;
+$body-bg: #ffffff;
+$body-color: #293542;
+$presentation-heading-color: #152536;
+$link-color: #365e78;
+$selection-bg: #dce8f0;
+
+/*-- scss:rules --*/
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  padding-top: 32px;
+}
+
+.reveal .slides section h2 {
+  max-width: 1080px;
+  margin: 0 0 0.9em;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.reveal .slides section h2::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 4px;
+  margin-top: 0.42em;
+  background: #557c94;
+}
+
+.reveal .slides section > ul {
+  display: block;
+  margin: 0;
+  padding-left: 0.85em;
+  max-width: 1050px;
+}
+
+.reveal .slides li {
+  padding-left: 0.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.reveal .slides li::marker {
+  color: #557c94;
+  font-size: 0.7em;
+}
+
+.reveal strong {
+  color: #152536;
+  font-weight: 600;
+}
+
+.reveal .slides #the-software-engineer-reborn {
+  padding-top: 100px;
+}
+
+.reveal .slides #the-software-engineer-reborn h2 {
+  max-width: 980px;
+  font-size: 2.55em;
+  line-height: 1.02;
+  margin-bottom: 0.55em;
+}
+
+.reveal .slides #the-software-engineer-reborn > ul {
+  list-style: none;
+  padding: 0;
+  color: #526170;
+  font-size: 1.05em;
+}
+
+.reveal .slides #the-software-engineer-reborn li {
+  padding: 0;
+}
+
+.reveal .slides #quality-ownership h2 {
+  font-size: 2.25em;
+  margin-top: 0.6em;
+}
+
+/* Comparisons use the existing Markdown list, with no extra HTML to edit. */
+.reveal .slides :is(
+  #the-title-can-survive-while-the-work-changes,
+  #knowing-what-matters-and-making-it-work,
+  #two-productive-patterns,
+  #would-i-choose-this-work-again
+) > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  padding: 0;
+  list-style: none;
+}
+
+.reveal .slides :is(
+  #the-title-can-survive-while-the-work-changes,
+  #knowing-what-matters-and-making-it-work,
+  #two-productive-patterns,
+  #would-i-choose-this-work-again
+) > ul > li {
+  border-top: 1px solid #c8d3dc;
+  padding: 0.65em 0 0;
+  margin: 0;
+}
+
+.reveal .footer {
+  text-align: left;
+  left: 4%;
+  bottom: 18px;
+  font-size: 15px;
+  color: #687583;
+}
+
+.reveal .footer a {
+  color: inherit;
+}
+
+.reveal .slide-number {
+  color: #687583;
+  font-size: 15px;
+  right: 4%;
+  bottom: 18px;
+}
+
+.reveal .progress {
+  height: 2px;
+  color: #557c94;
+}
+
+.reveal .slide-menu-button {
+  opacity: 0.5;
+}

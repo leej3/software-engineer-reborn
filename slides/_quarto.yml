@@ -6,7 +6,9 @@ project:
 
 format:
   revealjs:
-    theme: simple
+    theme:
+      - simple
+      - theme.scss
     width: 1280
     height: 720
     margin: 0.08
