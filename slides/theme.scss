@@ -318,3 +318,36 @@ $selection-bg: #dcebe5;
   font-size: 21px;
   color: #607371;
 }
+
+.reveal .slides .cs-evidence h2 {
+  font-size: 1.4em;
+  max-width: 1080px;
+  margin-bottom: 0.65em;
+}
+
+.reveal .slides .cs-evidence > p {
+  font-size: 27px;
+  color: #607371;
+}
+
+.reveal .slides .cs-evidence table {
+  width: 100%;
+  margin: 34px 0;
+  font-size: 27px;
+  line-height: 1.5;
+}
+
+.reveal .slides .cs-evidence th {
+  color: #174c4f;
+  border-bottom: 3px solid #87aaa2;
+}
+
+.reveal .slides .cs-evidence td {
+  padding: 0.65em 0.5em;
+  border-bottom: 1px solid #b7ccc3;
+}
+
+.reveal .slides .cs-evidence .study-credit {
+  font-size: 19px;
+  color: #607371;
+}

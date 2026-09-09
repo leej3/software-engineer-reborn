@@ -356,6 +356,46 @@ This is a legislative proposal.
 
 :::
 
+## What else
+
+- We can't tell the future, we are prone to catastrophizing, we forget how capable we are.
+- I am optimistic about the positive effects that AI and robotics can have on the world
+- I'm still clinging to the idea that software engineers become gods [↗](https://arxiv.org/abs/2603.14133)
+
+::: {.notes}
+
+:::
+
+## Even when the code is invisible, knowing computer science still helps. {.cs-evidence}
+
+100 students building apps with AI, without seeing or editing the code.
+
+| Correlation with vibe-coding performance | CS achievement | Writing skill |
+|:---------------------------------------|---------------:|--------------:|
+| Before controlling for cognitive ability | **r = .386**<br>p < .001 | r = .290<br>p = .003 |
+| After controlling for cognitive ability | **r = .281**<br>p = .005 | r = .186<br>p = .066 |
+
+::: {.study-credit}
+
+Thorgeirsson, Weidmann & Su · CHI 2026 · [Paper, Table 3](https://arxiv.org/html/2603.14133v1#S8.T3)
+
+:::
+
+::: {.notes}
+
+The heading is my takeaway from the study, not a quotation from its authors.
+Computer Science Achievement and Writing Skills Predict Vibe Coding Proficiency.
+Sverrir Thorgeirsson, Theo B. Weidmann, and Zhendong Su, CHI 2026.
+https://doi.org/10.1145/3772318.3791666
+
+The table is adapted from Table 3, showing correlations with aggregate vibe-coding performance.
+CS achievement was measured using a 12-item SCS1 subset; writing was assessed through a technical explanation; cognitive ability was measured using ICAR16.
+These are skill scores among 100 university students, not a comparison of professional engineers and writers.
+CS remained statistically significant after controlling for cognitive ability; writing did not reach the .05 threshold.
+The study is correlational.
+
+:::
+
 ## Huge possibilities. Consequential choices.
 
 - What becomes possible?
