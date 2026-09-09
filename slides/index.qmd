@@ -476,6 +476,104 @@ Brief context: optimism, misuse, environmental costs, and the distribution of ga
 
 :::
 
+## How does one measure quality?
+
+- Human output
+- AI output
+- Is there a difference?
+
+::: {.notes}
+
+
+:::
+
+## Evidence and calibrated confidence {.quality-map}
+
+::: {.quality-map-figure}
+
+```{=html}
+{{< include images/quality-map-slide.svg >}}
+```
+
+:::
+
+::: {.notes}
+
+Reused from the quality relationship map in research-object-with-ai, slide 23.
+Source: site/assets/quality-map-slide.svg and docs/exploration-of-quality.md in that project.
+
+Quality is how well the artifact satisfies its requirements.
+Evidence and provenance include sources, tests, calculations, reviews, and intermediate work.
+Assurance is the strength of the grounds for justified confidence.
+Assessability is how readily an expert can use that evidence to judge quality.
+Confidence is the evaluator's belief about the work, influenced by expertise, prior beliefs, and biases.
+Calibration is how appropriately that confidence tracks actual quality.
+
+Read the arrows as relationships in assessment, not a guarantee that good work automatically produces good evidence.
+Evidence can expose poor quality as well as support good quality.
+An extensive audit trail may provide assurance but remain difficult to assess.
+A polished summary may be easy to assess yet offer weak evidence.
+
+The practical strategy is to preserve the evidence and make important claims easy for an expert to investigate.
+The aim is justified confidence in a particular artifact and its supporting evidence.
+This complements tests and evaluation sets for characterizing a system across many cases.
+
+:::
+
+## Operationalizing quality for AI output {.quality-evaluation}
+
+Example: AI extracts structured metadata from research documentation.
+
+| Requirement | Observable criterion | Evaluator | Metric |
+|:---|:---|:---|:---|
+| Valid structure | Output conforms to schema | Validator | Pass/fail |
+| Correct extraction | Values match the source | Reference labels / expert | Precision, recall, F1 |
+| Grounded | Each value has source support | Source review / calibrated judge | % supported |
+| Complete | Required information is present | Reference labels / expert | Recall |
+| Semantically valid | Relationships obey ontology | SHACL / rules | Violations |
+| Useful | Researcher can use it without correction | Researcher review | Acceptance / error rate |
+
+::: {.quality-takeaway}
+
+Define the criterion first.
+Use the least subjective evaluator that can measure it.
+
+:::
+
+::: {.notes}
+
+Adapted from our prior discussion of AI output quality and its research-metadata example.
+This operationalizes the preceding diagram: evaluations produce evidence that can support assurance and calibrated confidence.
+Keep the source passages, reference labels, validation results, and review decisions accessible alongside the output to improve assessability.
+
+Start with the task and its requirements, then choose observable criteria, evaluators, and metrics.
+Define acceptance thresholds before evaluation, according to the intended use and consequences of errors.
+The table is an evaluation design, not measured results.
+
+For extraction, precision is the proportion of extracted items that are correct, and recall is the proportion of required reference items recovered correctly.
+F1 combines precision and recall.
+Specify the unit of evaluation, such as fields or entities, and the matching rule.
+For groundedness, report the fraction of extracted values with supporting source evidence.
+Source support does not by itself establish that a source is true.
+For usefulness, define acceptance and what counts as an error before researcher review.
+
+Different dimensions require different evidence, and several evaluators may apply to the same output.
+A passing schema check establishes valid structure, not factual correctness.
+SHACL can validate graph constraints that encode selected ontology requirements.
+It does not establish every aspect of semantic correctness.
+
+For open-ended work, use an explicit rubric covering observable properties such as major findings, attribution, preserved uncertainty, and conclusions that stay within the evidence.
+For subjective comparison, hide model identity and ask which output better satisfies a specific criterion.
+An LLM judge needs the task, source evidence, output, and rubric.
+Calibrate it against expert labels and check position, verbosity, and self-preference biases.
+
+For a repeated system, examine pass rates, severe errors, variation across runs, task subtypes, and difficult edge cases.
+An average score can hide important failures.
+For an agent, also assess tool selection, evidence retrieval, unnecessary actions, failure detection, and recovery.
+These methods also support assessment of an individual artifact wherever its properties are testable.
+
+:::
+
 ## The title can survive while the work changes
 
 - The role: what we do, what employers need, what earns compensation.
@@ -634,92 +732,6 @@ The distinction helps explain both the opportunities and the work of assessing q
 :::
 
 
-## Evidence and calibrated confidence {.quality-map}
-
-::: {.quality-map-figure}
-
-```{=html}
-{{< include images/quality-map-slide.svg >}}
-```
-
-:::
-
-::: {.notes}
-
-Reused from the quality relationship map in research-object-with-ai, slide 23.
-Source: site/assets/quality-map-slide.svg and docs/exploration-of-quality.md in that project.
-
-Quality is how well the artifact satisfies its requirements.
-Evidence and provenance include sources, tests, calculations, reviews, and intermediate work.
-Assurance is the strength of the grounds for justified confidence.
-Assessability is how readily an expert can use that evidence to judge quality.
-Confidence is the evaluator's belief about the work, influenced by expertise, prior beliefs, and biases.
-Calibration is how appropriately that confidence tracks actual quality.
-
-Read the arrows as relationships in assessment, not a guarantee that good work automatically produces good evidence.
-Evidence can expose poor quality as well as support good quality.
-An extensive audit trail may provide assurance but remain difficult to assess.
-A polished summary may be easy to assess yet offer weak evidence.
-
-The practical strategy is to preserve the evidence and make important claims easy for an expert to investigate.
-The aim is justified confidence in a particular artifact and its supporting evidence.
-This complements tests and evaluation sets for characterizing a system across many cases.
-
-:::
-
-## Operationalizing quality for AI output {.quality-evaluation}
-
-Example: AI extracts structured metadata from research documentation.
-
-| Requirement | Observable criterion | Evaluator | Metric |
-|:---|:---|:---|:---|
-| Valid structure | Output conforms to schema | Validator | Pass/fail |
-| Correct extraction | Values match the source | Reference labels / expert | Precision, recall, F1 |
-| Grounded | Each value has source support | Source review / calibrated judge | % supported |
-| Complete | Required information is present | Reference labels / expert | Recall |
-| Semantically valid | Relationships obey ontology | SHACL / rules | Violations |
-| Useful | Researcher can use it without correction | Researcher review | Acceptance / error rate |
-
-::: {.quality-takeaway}
-
-Define the criterion first.
-Use the least subjective evaluator that can measure it.
-
-:::
-
-::: {.notes}
-
-Adapted from our prior discussion of AI output quality and its research-metadata example.
-This operationalizes the preceding diagram: evaluations produce evidence that can support assurance and calibrated confidence.
-Keep the source passages, reference labels, validation results, and review decisions accessible alongside the output to improve assessability.
-
-Start with the task and its requirements, then choose observable criteria, evaluators, and metrics.
-Define acceptance thresholds before evaluation, according to the intended use and consequences of errors.
-The table is an evaluation design, not measured results.
-
-For extraction, precision is the proportion of extracted items that are correct, and recall is the proportion of required reference items recovered correctly.
-F1 combines precision and recall.
-Specify the unit of evaluation, such as fields or entities, and the matching rule.
-For groundedness, report the fraction of extracted values with supporting source evidence.
-Source support does not by itself establish that a source is true.
-For usefulness, define acceptance and what counts as an error before researcher review.
-
-Different dimensions require different evidence, and several evaluators may apply to the same output.
-A passing schema check establishes valid structure, not factual correctness.
-SHACL can validate graph constraints that encode selected ontology requirements.
-It does not establish every aspect of semantic correctness.
-
-For open-ended work, use an explicit rubric covering observable properties such as major findings, attribution, preserved uncertainty, and conclusions that stay within the evidence.
-For subjective comparison, hide model identity and ask which output better satisfies a specific criterion.
-An LLM judge needs the task, source evidence, output, and rubric.
-Calibrate it against expert labels and check position, verbosity, and self-preference biases.
-
-For a repeated system, examine pass rates, severe errors, variation across runs, task subtypes, and difficult edge cases.
-An average score can hide important failures.
-For an agent, also assess tool selection, evidence retrieval, unnecessary actions, failure detection, and recovery.
-These methods also support assessment of an individual artifact wherever its properties are testable.
-
-:::
 
 
 ## Making an artifact easier to assess
