@@ -629,6 +629,81 @@ The distinction helps explain both the opportunities and the work of assessing q
 
 :::
 
+## Measuring quality against requirements {.quality-evaluation}
+
+Quality means fitness for the task.
+Each requirement needs an observable check.
+
+| What can we check? | How do we assess it? |
+|:---|:---|
+| Structure, calculations, explicit rules | **Validators and tests** |
+| Answers with a known reference | **Reference comparison**: exact match, precision, recall |
+| Open-ended work | **Explicit rubric**: correctness, coverage, source support, clarity |
+| Subjective or consequential judgments | **Expert review**: compare alternatives against a criterion |
+| Evaluation at scale | **LLM judge**, calibrated against human judgments |
+
+::: {.quality-takeaway}
+
+Use the least subjective evaluator that can measure each property.
+
+:::
+
+::: {.notes}
+
+Adapted from our prior discussion of AI output quality, supplied for this talk.
+The evaluation chain is task, requirements, quality dimensions, observable criteria, evaluator, metric.
+Define the criteria before evaluating the output.
+
+Quality dimensions include correctness, completeness, relevance, groundedness or faithfulness, consistency, instruction adherence, reasoning and application, communication, and safety where applicable.
+Different dimensions require different evidence, and several evaluators may apply to the same output.
+A passing schema check establishes valid structure, not factual correctness.
+A citation's existence does not establish that it supports the claim.
+
+For a research summary, check whether it represents the major findings, attributes claims to the evidence, preserves uncertainty, and keeps conclusions within what the evidence supports.
+For subjective comparison, hide model identity and ask which output better satisfies a specific criterion.
+An LLM judge needs the task, source evidence, output, and rubric.
+Check its agreement with human labels and watch for position, verbosity, and self-preference biases.
+
+For a repeated system, examine pass rates, severe errors, variation across runs, task subtypes, and difficult edge cases.
+An average score can hide important failures.
+For an agent, also assess tool selection, evidence retrieval, unnecessary actions, failure detection, and recovery.
+These methods also support assessment of an individual artifact wherever its properties are testable.
+
+:::
+
+## Evidence and calibrated confidence {.quality-map}
+
+::: {.quality-map-figure}
+
+```{=html}
+{{< include images/quality-map-slide.svg >}}
+```
+
+:::
+
+::: {.notes}
+
+Reused from the quality relationship map in research-object-with-ai, slide 23.
+Source: site/assets/quality-map-slide.svg and docs/exploration-of-quality.md in that project.
+
+Quality is how well the artifact satisfies its requirements.
+Evidence and provenance include sources, tests, calculations, reviews, and intermediate work.
+Assurance is the strength of the grounds for justified confidence.
+Assessability is how readily an expert can use that evidence to judge quality.
+Confidence is the evaluator's belief about the work, influenced by expertise, prior beliefs, and biases.
+Calibration is how appropriately that confidence tracks actual quality.
+
+Read the arrows as relationships in assessment, not a guarantee that good work automatically produces good evidence.
+Evidence can expose poor quality as well as support good quality.
+An extensive audit trail may provide assurance but remain difficult to assess.
+A polished summary may be easy to assess yet offer weak evidence.
+
+The practical strategy is to preserve the evidence and make important claims easy for an expert to investigate.
+The aim is justified confidence in a particular artifact and its supporting evidence.
+This complements tests and evaluation sets for characterizing a system across many cases.
+
+:::
+
 ## Making an artifact easier to assess
 
 - Preserve sources, assumptions, calculations, tests, and decisions.
