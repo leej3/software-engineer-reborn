@@ -192,7 +192,6 @@ As of 8 September 2026.
 - **Verified mathematics:** Claude formalized Fermat’s Last Theorem in Lean in 11 days, according to Anthropic: an existing theorem, now machine-checked.
   [Source](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
 - **New mathematics:** OpenAI announced a proposed Navier–Stokes solution with a Lean proof on 8 September.
-  Treat this as a newly announced claim pending independent scrutiny.
   [Source](https://openai.com/index/navier-stokes-solution/)
 - **Open weights:** DeepSeek V4 Pro scores [36](https://artificialanalysis.ai/models/deepseek-v4-pro) against Sol’s [47](https://artificialanalysis.ai/models/gpt-5-6-sol) on Artificial Analysis’ Intelligence Index v4.3.
 - **Local deployment:** [Phi-3-mini](https://www.microsoft.com/en-us/research/publication/phi-3-technical-report-a-highly-capable-language-model-locally-on-your-phone/) rivals GPT-3.5 on selected benchmarks on a phone.
@@ -348,16 +347,6 @@ This is a legislative proposal.
 
 ## What else
 
-- We can't tell the future
-- I am optimistic about the positive effects that AI and robotics can have on the world
-- I'm still clinging to the idea that software engineers become gods
-
-::: {.notes}
-
-:::
-
-## What else
-
 - We can't tell the future, we are prone to catastrophizing, we forget how capable we are.
 - I am optimistic about the positive effects that AI and robotics can have on the world
 - I'm still clinging to the idea that software engineers become gods [↗](https://arxiv.org/abs/2603.14133)
@@ -446,6 +435,8 @@ Thorgeirsson, Weidmann & Su · CHI 2026 · [Paper, Table 3](https://arxiv.org/ht
 
 ::: {.notes}
 
+I think it matters what you are building... and how you are assessing quality.
+
 The heading is my takeaway from the study, not a quotation from its authors.
 Computer Science Achievement and Writing Skills Predict Vibe Coding Proficiency.
 Sverrir Thorgeirsson, Theo B. Weidmann, and Zhendong Su, CHI 2026.
@@ -459,6 +450,19 @@ The study is correlational.
 
 :::
 
+## The modern interface
+
+- Manages conversations, directories, worktrees seamlessly
+- More threads of work across many more projects
+- Blends all work together
+- Git is a core technology
+- Context management is the core challenge
+
+::: {.notes}
+
+Brief context: optimism, misuse, environmental costs, and the distribution of gains.
+
+:::
 ## Huge possibilities. Consequential choices.
 
 - What becomes possible?
