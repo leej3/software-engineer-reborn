@@ -6,3 +6,9 @@ repos:
         entry: pixi run snapper --format markdown --in-place
         language: system
         files: \.(md|markdown|qmd)$
+      - id: slide-titles
+        name: Update slide timing outline
+        entry: pixi run python scripts/generate-slide-titles.py
+        language: system
+        files: ^slides/index\.qmd$
+        pass_filenames: false
