@@ -535,3 +535,48 @@ $selection-bg: #dcebe5;
   margin-bottom: 0.3em;
   line-height: 1.3;
 }
+
+/* Final slide: quiet context, a prominent agency statement, useful links. */
+.reveal .slides .closing-agency h2 {
+  margin-bottom: 0.65em;
+}
+
+.reveal .slides .closing-agency .closing-alternatives {
+  color: #607371;
+  font-size: 27px;
+  line-height: 1.4;
+}
+
+.reveal .slides .closing-agency .closing-alternatives p {
+  margin: 0.35em 0;
+}
+
+.reveal .slides .closing-agency .closing-statement {
+  margin-top: 45px;
+  max-width: 1020px;
+  padding-left: 30px;
+  border-left: 5px solid #b56a43;
+}
+
+.reveal .slides .closing-agency .closing-statement > p:first-child {
+  font-size: 25px;
+  margin: 0 0 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reveal .slides .closing-agency .closing-statement > p:last-child {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #174c4f;
+  margin: 0;
+}
+
+.reveal .slides .closing-agency .closing-resources {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #b7ccc3;
+  font-size: 23px;
+  color: #607371;
+}

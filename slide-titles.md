@@ -76,3 +76,6 @@ Time:
 
 ## 24. The role has changed... pick a new one
 Time:
+
+## 25. Dealing with the change
+Time:

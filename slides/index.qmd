@@ -684,8 +684,8 @@ Source: Different Engineers, Different Adaptations in talk-concepts/08-a-favorab
 
 ## Future jobs for software engineers
 
-- **Broader knowledge work:** use AI across domains to produce analyses, designs, and products.
 - **Directing AI-assisted production:** specify work, guide agents, review results, and integrate changes.
+- **Broader knowledge work:** use AI across domains to produce analyses, designs, and products.
 - **Engineering AI systems:** build bounded, repeatable capabilities with evaluation and monitoring.
 - **Conventional software engineering:** pursue technical depth where security and direct control matter.
 
@@ -746,5 +746,29 @@ Accumulated experience informs that choice, but does not require preserving the 
 
 The claim concerns the role and its appeal, not a prediction that every software engineering position has disappeared.
 Close directly on choosing work that fits the person's preferences under the changed conditions.
+
+:::
+
+## Dealing with the change {.closing-agency}
+
+::: {.closing-alternatives}
+
+**Denial** · This will not fundamentally change me.
+
+**Surrender** · Nothing I choose will matter.
+
+:::
+
+::: {.closing-statement}
+
+**Agency**
+
+I cannot know the outcome, but I can still participate deliberately in determining what happens next.
+
+:::
+
+::: {.closing-resources}
+
+[GitHub repository ↗](https://github.com/leej3/software-engineer-reborn) · [Prep site & exploration notes ↗](https://software-engineer-reborn-atlas.johnlee3728739.chatgpt.site)
 
 :::
