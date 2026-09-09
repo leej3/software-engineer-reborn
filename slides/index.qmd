@@ -580,7 +580,18 @@ The distinction helps explain both the opportunities and the work of assessing q
 
 :::
 
+## Different directions are opening
 
+- A broader knowledge worker.
+- Directing and refining AI-assisted production.
+- Engineering bounded, scalable AI systems.
+- Conventional development where security and direct control matter.
+
+::: {.notes}
+
+Which activities fit my strengths, interests, and preferred working life?
+
+:::
 
 ## Quality ≠ ownership
 
@@ -689,18 +700,7 @@ The disruption prompts a fresh look at the reasons for choosing this career; my 
 
 :::
 
-## Different directions are opening
 
-- A broader knowledge worker.
-- Directing and refining AI-assisted production.
-- Engineering bounded, scalable AI systems.
-- Conventional development where security and direct control matter.
-
-::: {.notes}
-
-Which activities fit my strengths, interests, and preferred working life?
-
-:::
 
 ## We still need other people
 
