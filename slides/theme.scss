@@ -508,3 +508,30 @@ $selection-bg: #dcebe5;
   margin-left: 0;
   font-size: 25px;
 }
+
+/* Closing reference slides retain readable type with denser comparisons. */
+.reveal .slides .engineer-types table {
+  width: 100%;
+  margin: 24px 0;
+  font-size: 28px;
+  line-height: 1.35;
+}
+
+.reveal .slides .engineer-types :is(th, td) {
+  padding: 0.6em 0.45em;
+  border-bottom: 1px solid #b7ccc3;
+}
+
+.reveal .slides .engineer-types th {
+  color: #174c4f;
+  border-bottom: 3px solid #87aaa2;
+}
+
+.reveal .slides .role-factors > ul {
+  font-size: 28px;
+}
+
+.reveal .slides .role-factors li {
+  margin-bottom: 0.3em;
+  line-height: 1.3;
+}

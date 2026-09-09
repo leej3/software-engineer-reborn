@@ -1,4 +1,4 @@
-  ---
+---
 pagetitle: The Software Engineer Reborn
 ---
 
@@ -8,7 +8,9 @@ pagetitle: The Software Engineer Reborn
 
 ::: {.notes}
 
-riffing on previous talk explore some of the latests updates and future directions this is an exploration of what the path forward looks like for those who until recently were known software engineers :::
+riffing on previous talk explore some of the latests updates and future directions this is an exploration of what the path forward looks like for those who until recently were known software engineers
+
+:::
 
 
 ## Overview
@@ -637,188 +639,112 @@ The distinction helps explain both the opportunities and the work of assessing q
 
 :::
 
-## Converging knowledge work
+## Types of knowledge workers
 
-- **Engineers** can take on more domain and product work.
-  They need to understand which outcomes matter.
-- **Domain experts and leaders** can implement more of their own ideas.
-  They need to distinguish a convincing result from a dependable system.
-- Both need to judge whether the work is useful and whether it can be relied on.
-
-::: {.notes}
-
-AI lowers barriers in both directions.
-Engineers bring experience with systems and failure; people from other backgrounds bring knowledge of users, institutions, and real-world needs.
-Neither starting point supplies everything.
-This is convergence in the work people can attempt, not a claim that everyone becomes interchangeable or that all professions merge into one role.
-
-Source: talk-concepts/02-converging-expertise-and-system-correctness.md.
-
-:::
-
-## Making, directing, deciding, connecting
-
-- **Builders / making:** How can this be built?
-- **Directors / directing:** What should be done, and in what order?
-- **Deciders / deciding:** Which outcomes matter, and which risks are acceptable?
-- **Communicators / connecting:** What will people understand, trust, value, or use?
+- **Making — builders:** How can this be built?
+- **Directing — coordinators:** What should be done, and in what order?
+- **Deciding — leaders:** Which outcomes matter, and which risks are acceptable?
+- **Connecting — communicators:** What will people understand, trust, value, or use?
 
 ::: {.notes}
 
-These are overlapping contributions, not four separate job titles.
-People combine them in different proportions.
-Connecting includes listening, understanding people, and establishing shared purpose as well as explaining the work.
+These are overlapping dispositions, not exclusive job categories.
+Most people combine them in different proportions.
+Connecting includes listening, understanding people, and establishing shared purpose.
 
-Engineers have often been identified most strongly with making.
-AI creates opportunities to take on more of the other contributions, while people who already direct, decide, or communicate can increasingly build.
-No one has to develop all four equally.
+AI lets people from these different backgrounds reach into one another's work.
+Engineers can take on more direction and domain work; domain experts and leaders can implement more of their own ideas.
+Each brings strengths and has gaps to develop.
 
-Source: the Four Dispositions section of talk-concepts/08-a-favorable-starting-position.md.
+Source: Four Dispositions in talk-concepts/08-a-favorable-starting-position.md.
 
 :::
 
-## A changed working day
+## Types of software engineers {.engineer-types}
 
-- More work defining objectives and constraints.
-- More direction and assessment of generated work.
-- More integration across technical and domain boundaries.
-- Less direct implementation in some roles.
+| Orientation | What they value | How they may need to grow |
+|:---|:---|:---|
+| **Craft** | Mastery, correctness, elegance, authorship | Extend craft into architecture, evaluation, and stewardship |
+| **Systems** | Interfaces, dependencies, constraints, failure modes | Develop domain and product judgment |
+| **Product** | User needs and useful outcomes | Deepen evaluation and reliability skills |
+| **Operational** | Observability, resilience, recovery | Help define autonomy, control, and acceptable failure earlier |
 
 ::: {.notes}
 
-The title can survive while the day-to-day work changes substantially.
-The balance will differ by project and organization, but learning an AI tool may be only a small part of adapting to the job.
+These four orientations overlap; they are not a complete classification of engineers.
 
-In my own work I can take an idea further across the stack, while spending more attention on context, decisions, and assessing unfamiliar output.
-Someone who chose engineering for sustained implementation work may not enjoy the resulting job equally, even if they are good at it.
-
-Source: talk-concepts/03-rebuilding-professional-identity.md.
-
-:::
-
-## Craft and systems orientations
-
-::: {.columns}
-
-::: {.column width="47%"}
-
-### Craft
-
-Values mastery, correctness, elegance, and direct authorship.
-
-**Strength:** judging technical quality.
-
-**Develop toward:** architecture, evaluation, and stewardship.
-Decide how much hands-on implementation you want to retain.
-
-:::
-
-::: {.column width="47%"}
-
-### Systems
-
-Thinks in interfaces, dependencies, constraints, and failure modes.
-
-**Strength:** making components work together dependably.
-
-**Develop:** domain and product judgment to connect system design to worthwhile outcomes.
-
-:::
-
-:::
-
-::: {.notes}
-
-These orientations overlap and are not an exhaustive taxonomy.
-A person may recognize themselves in several of them.
-
-The craft-oriented engineer has a strong basis for judging generated work, but may find the loss of direct authorship difficult.
-Extending craft does not require pretending that implementation no longer matters or that its satisfaction is easily replaced.
-
-The systems engineer can contribute to dependable AI capabilities, but needs to understand which human outcome the machinery should serve.
+Craft provides a basis for judging generated work, but attachment to direct authorship can make the transition difficult.
+Systems thinking helps make components dependable, but needs a connection to worthwhile human outcomes.
+Product judgment helps choose what to build, but rapid production can be mistaken for reliable progress.
+Operational judgment should shape design and the limits of autonomy, rather than being confined to downstream support.
 
 Source: Different Engineers, Different Adaptations in talk-concepts/08-a-favorable-starting-position.md.
 
 :::
 
-## Product and operational orientations
+## Future jobs for software engineers
 
-::: {.columns}
-
-::: {.column width="47%"}
-
-### Product
-
-Values solving user problems and delivering useful outcomes.
-
-**Strength:** connecting implementation to purpose.
-
-**Develop:** evaluation and reliability skills so rapid production leads to dependable progress.
-
-:::
-
-::: {.column width="47%"}
-
-### Operational
-
-Values observability, resilience, repeatability, and recovery.
-
-**Strength:** understanding systems in use.
-
-**Develop toward:** earlier involvement in decisions about autonomy, control, and acceptable failure.
-
-:::
-
-:::
+- **Broader knowledge work:** use AI across domains to produce analyses, designs, and products.
+- **Directing AI-assisted production:** specify work, guide agents, review results, and integrate changes.
+- **Engineering AI systems:** build bounded, repeatable capabilities with evaluation and monitoring.
+- **Conventional software engineering:** pursue technical depth where security and direct control matter.
 
 ::: {.notes}
 
-Product-oriented engineers may already span the boundary between what should be built and how it works.
-The risk is accepting plausible, rapidly produced work before there is sufficient evidence that it meets the need reliably.
+These are the four previously identified directions, not four guaranteed future job titles.
+They overlap, and none is insulated from further change.
 
-Operational engineers bring useful instincts when systems can take actions.
-Their contribution should help shape the system before deployment, rather than being confined to supporting decisions already made.
+Broader knowledge work may suit someone who enjoys unfamiliar domains and taking an idea further toward an outcome.
+Directing production involves substantial specification, review, and empirical adjustment of agent behavior.
+Engineering AI systems puts evaluation and operational reliability at the center of the work.
+Conventional engineering remains a direction for people interested in technical depth and direct control; the tools used in that work can still change with AI.
 
-These are directions for development, not predictions of protected jobs.
-Source: Different Engineers, Different Adaptations in talk-concepts/08-a-favorable-starting-position.md.
+Source: slide 10 of talk-candidates/02-choosing-the-work-again.md.
 
 :::
 
-## What fits you?
+## How does one choose a role? {.role-factors}
 
-- Which activities do you enjoy, and which would you miss?
-- Where do you want to develop depth?
-- How do you weigh impact, compensation, lifestyle, and community?
-- What responsibility do you want to take on?
+- **Enjoyment:** daily activities, immersion, creativity, satisfaction.
+- **Mastery:** strengths, technical depth, learning, direct authorship.
+- **Impact:** useful outcomes, purpose, values, people affected.
+- **Compensation:** income, benefits, financial needs, stability.
+- **Lifestyle:** hours, flexibility, location, workload, energy, family.
+- **Community:** colleagues, collaboration, belonging, mentorship.
+- **Agency:** autonomy, influence, ownership, responsibility.
+- **Practical fit:** available opportunities, experience, career stage, cost of retraining.
 
 ::: {.notes}
 
-Greater capability does not automatically mean greater satisfaction.
-In my experience, broader output has come with less retained detail, some lost pleasure in solving the problem personally, and a different kind of exhaustion.
-Quality is not the same as ownership: an artifact may be better while remaining harder for me to explain or stand behind.
+The original factors were impact, compensation, enjoyment, lifestyle, community, and agency.
+Mastery and practical fit make explicit the other considerations in the professional-identity and career-choice notes.
+The examples expand each factor into questions someone can apply to their own circumstances.
 
-Use these personal observations to make the choice concrete, without assuming everyone experiences the change in the same way.
-The things we want from work can also change with our stage of life.
+Ask what the working day actually involves, not only whether the title or output is appealing.
+Greater capability can coexist with less satisfaction or greater cognitive exhaustion.
+Preferences can change with experience and stage of life, and people have different constraints on their choices.
 
 Sources: talk-concepts/03-rebuilding-professional-identity.md and talk-candidates/02-choosing-the-work-again.md.
 
 :::
 
-## Developing in your chosen direction
+## The role has changed... pick a new one
 
-- Identify the work you want more of.
-- Work out which knowledge and experience it requires.
-- Seek projects and responsibilities that develop those strengths.
-- Build relationships with people whose expertise complements yours.
+- The old role can be dead even if the job title survives.
+- Change with AI: develop toward the work you want to do with it.
+- Or choose a different niche that better fits your interests and preferences.
+- Rebirth means choosing what comes next, rather than expecting the old job back.
 
 ::: {.notes}
 
-Choosing intentionally can mean changing the balance of work within a current role as well as moving to a different one.
-For example, a systems engineer interested in product work could participate in user conversations and defining success, rather than only receiving an implementation specification.
-An operational engineer could seek involvement in design decisions about autonomous actions and recovery.
+This is the sense in which I mean the software engineer is reborn.
+The work can change enough to become a different role, even when employers keep calling it software engineering.
+The question is whether I want that role and, if so, which version of it.
 
-The point is to make development choices based on the work you want to do, rather than assuming that retaining the title will preserve the job you originally chose.
+Changing direction can mean adapting within the current profession or finding a niche with a different balance of activities, depth, autonomy, and human collaboration.
+Accumulated experience informs that choice, but does not require preserving the same professional identity or daily work.
 
-Sources: talk-concepts/08-a-favorable-starting-position.md and talk-candidates/02-choosing-the-work-again.md.
+The claim concerns the role and its appeal, not a prediction that every software engineering position has disappeared.
+Close directly on choosing work that fits the person's preferences under the changed conditions.
 
 :::

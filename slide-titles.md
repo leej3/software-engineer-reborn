@@ -62,23 +62,17 @@ Time:
 ## 19. Two productive patterns
 Time:
 
-## 20. Converging knowledge work
+## 20. Types of knowledge workers
 Time:
 
-## 21. Making, directing, deciding, connecting
+## 21. Types of software engineers
 Time:
 
-## 22. A changed working day
+## 22. Future jobs for software engineers
 Time:
 
-## 23. Craft and systems orientations
+## 23. How does one choose a role?
 Time:
 
-## 24. Product and operational orientations
-Time:
-
-## 25. What fits you?
-Time:
-
-## 26. Developing in your chosen direction
+## 24. The role has changed... pick a new one
 Time:
