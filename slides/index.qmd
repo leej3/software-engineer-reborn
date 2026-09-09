@@ -184,8 +184,6 @@ LLM landmarks follow the adjacent [Toloka timeline](https://toloka.ai/blog/histo
 
 ## Capabilities, discovery and access {.smaller}
 
-As of 8 September 2026; Navier–Stokes updated 9 September.
-
 - **ARC-AGI-3:** Astra scores 62.7% with the Standard harness and 99.9% with its Provider Adapter.
   Harness and compute materially change results.
   [Source](https://arcprize.org/results/openai-gpt-6-astra)
@@ -371,6 +369,8 @@ Harold N. Fowler.
 
 ::: {.notes}
 
+of course it changes the brain. everything does software engineering does socrates' lamemt
+
 :::
 
 ## What else
@@ -380,6 +380,8 @@ Harold N. Fowler.
 - I'm still clinging to the idea that software engineers become gods [↗](https://arxiv.org/abs/2603.14133)
 
 ::: {.notes}
+
+
 
 :::
 
@@ -608,163 +610,188 @@ The distinction helps explain both the opportunities and the work of assessing q
 
 :::
 
-## Different directions are opening
+## Converging knowledge work
 
-- A broader knowledge worker.
-- Directing and refining AI-assisted production.
-- Engineering bounded, scalable AI systems.
-- Conventional development where security and direct control matter.
+- **Engineers** can take on more domain and product work.
+  They need to understand which outcomes matter.
+- **Domain experts and leaders** can implement more of their own ideas.
+  They need to distinguish a convincing result from a dependable system.
+- Both need to judge whether the work is useful and whether it can be relied on.
 
 ::: {.notes}
 
-Which activities fit my strengths, interests, and preferred working life?
+AI lowers barriers in both directions.
+Engineers bring experience with systems and failure; people from other backgrounds bring knowledge of users, institutions, and real-world needs.
+Neither starting point supplies everything.
+This is convergence in the work people can attempt, not a claim that everyone becomes interchangeable or that all professions merge into one role.
+
+Source: talk-concepts/02-converging-expertise-and-system-correctness.md.
 
 :::
 
-## Quality ≠ ownership
+## Making, directing, deciding, connecting
 
-- The artifact may be better.
-- It can still be harder to explain, defend, caveat, or fully stand behind.
-
-::: {.notes}
-
-This is a central tension in the new work.
-
-::: :::
-
-## What does an engineer contribute?
-
-- Making: How can this be built?
-- Directing: What should happen next?
-- Deciding: Which outcomes and tradeoffs matter?
-- Connecting: What will people understand, trust, and use?
+- **Builders / making:** How can this be built?
+- **Directors / directing:** What should be done, and in what order?
+- **Deciders / deciding:** Which outcomes matter, and which risks are acceptable?
+- **Communicators / connecting:** What will people understand, trust, value, or use?
 
 ::: {.notes}
 
-These dispositions give us a way to examine the changing balance of our work.
+These are overlapping contributions, not four separate job titles.
+People combine them in different proportions.
+Connecting includes listening, understanding people, and establishing shared purpose as well as explaining the work.
+
+Engineers have often been identified most strongly with making.
+AI creates opportunities to take on more of the other contributions, while people who already direct, decide, or communicate can increasingly build.
+No one has to develop all four equally.
+
+Source: the Four Dispositions section of talk-concepts/08-a-favorable-starting-position.md.
 
 :::
 
+## A changed working day
 
-
-## What we need to develop
-
-- Understanding the domain and the people affected.
-- Choosing worthwhile outcomes.
-- Coordinating expertise.
-- Communicating intent and uncertainty.
+- More work defining objectives and constraints.
+- More direction and assessment of generated work.
+- More integration across technical and domain boundaries.
+- Less direct implementation in some roles.
 
 ::: {.notes}
 
-AI also lets domain experts approach implementation from the other direction.
+The title can survive while the day-to-day work changes substantially.
+The balance will differ by project and organization, but learning an AI tool may be only a small part of adapting to the job.
+
+In my own work I can take an idea further across the stack, while spending more attention on context, decisions, and assessing unfamiliar output.
+Someone who chose engineering for sustained implementation work may not enjoy the resulting job equally, even if they are good at it.
+
+Source: talk-concepts/03-rebuilding-professional-identity.md.
 
 :::
 
+## Craft and systems orientations
 
-## The title can survive while the work changes
+::: {.columns}
 
-- The role: what we do, what employers need, what earns compensation.
-- The person: what we enjoy, what we value, who we understand ourselves to be.
+::: {.column width="47%"}
 
-::: {.notes}
+### Craft
 
-A sufficiently changed role can feel like a different profession.
+Values mastery, correctness, elegance, and direct authorship.
 
-:::
+**Strength:** judging technical quality.
 
-
-## Why engineering was satisfying
-
-- I could immerse myself in a difficult problem.
-- The effort produced understanding.
-- I could build a solution and explain why it worked.
-- That expertise was useful and valued.
-
-::: {.notes}
-
-Establish what the old way of working gave me before describing what changed.
+**Develop toward:** architecture, evaluation, and stewardship.
+Decide how much hands-on implementation you want to retain.
 
 :::
 
-## Expanded capability, lost mastery
+::: {.column width="47%"}
 
-- I can produce work across more domains.
-- I retain less of its detail.
-- Some of the pleasure of personally solving the problem is gone.
+### Systems
 
-::: {.notes}
+Thinks in interfaces, dependencies, constraints, and failure modes.
 
-Talk about the change in satisfaction and the attempt to develop mastery of this new way of working.
+**Strength:** making components work together dependably.
 
-:::
-
-## The exhaustion is different
-
-- More possibilities to explore.
-- More unfamiliar work to assess.
-- More decisions to make.
-- A collaborator with no natural stopping point.
-
-::: {.notes}
-
-Connect cognitive saturation to the expansion of work, context, and responsibility.
-
-
-
-
-
-## Would I choose this work again?
-
-- Impact.
-  Compensation.
-  Enjoyment.
-- Lifestyle.
-  Community.
-  Agency.
-
-::: {.notes}
-
-The disruption prompts a fresh look at the reasons for choosing this career; my priorities have also changed over time.
+**Develop:** domain and product judgment to connect system design to worthwhile outcomes.
 
 :::
 
-
-
-## We still need other people
-
-- Expertise beyond our own.
-- People who can challenge and assess our work.
-- Shared standards.
-- Community and belonging.
+:::
 
 ::: {.notes}
 
-Include the role of experienced and retired engineers in sharing judgment and helping people learn.
+These orientations overlap and are not an exhaustive taxonomy.
+A person may recognize themselves in several of them.
+
+The craft-oriented engineer has a strong basis for judging generated work, but may find the loss of direct authorship difficult.
+Extending craft does not require pretending that implementation no longer matters or that its satisfaction is easily replaced.
+
+The systems engineer can contribute to dependable AI capabilities, but needs to understand which human outcome the machinery should serve.
+
+Source: Different Engineers, Different Adaptations in talk-concepts/08-a-favorable-starting-position.md.
 
 :::
 
-## Starting over carries a cost
+## Product and operational orientations
 
-- The skills I have accumulated.
-- The work I enjoy.
-- The identity I have built.
-- The future I had expected.
+::: {.columns}
 
-::: {.notes}
+::: {.column width="47%"}
 
-Allow room for grief and self-compassion alongside curiosity and excitement.
+### Product
+
+Values solving user problems and delivering useful outcomes.
+
+**Strength:** connecting implementation to purpose.
+
+**Develop:** evaluation and reliability skills so rapid production leads to dependable progress.
 
 :::
 
-## Act while there are choices to explore
+::: {.column width="47%"}
 
-- Try the new ways of working.
-- Notice what is changing around you.
-- Reassess what you want.
-- Make room to change direction.
+### Operational
+
+Values observability, resilience, repeatability, and recovery.
+
+**Strength:** understanding systems in use.
+
+**Develop toward:** earlier involvement in decisions about autonomy, control, and acceptable failure.
+
+:::
+
+:::
 
 ::: {.notes}
 
-Close on agency: bend with the change rather than discovering belatedly that the reasons for choosing the work no longer hold.
+Product-oriented engineers may already span the boundary between what should be built and how it works.
+The risk is accepting plausible, rapidly produced work before there is sufficient evidence that it meets the need reliably.
+
+Operational engineers bring useful instincts when systems can take actions.
+Their contribution should help shape the system before deployment, rather than being confined to supporting decisions already made.
+
+These are directions for development, not predictions of protected jobs.
+Source: Different Engineers, Different Adaptations in talk-concepts/08-a-favorable-starting-position.md.
+
+:::
+
+## What fits you?
+
+- Which activities do you enjoy, and which would you miss?
+- Where do you want to develop depth?
+- How do you weigh impact, compensation, lifestyle, and community?
+- What responsibility do you want to take on?
+
+::: {.notes}
+
+Greater capability does not automatically mean greater satisfaction.
+In my experience, broader output has come with less retained detail, some lost pleasure in solving the problem personally, and a different kind of exhaustion.
+Quality is not the same as ownership: an artifact may be better while remaining harder for me to explain or stand behind.
+
+Use these personal observations to make the choice concrete, without assuming everyone experiences the change in the same way.
+The things we want from work can also change with our stage of life.
+
+Sources: talk-concepts/03-rebuilding-professional-identity.md and talk-candidates/02-choosing-the-work-again.md.
+
+:::
+
+## Developing in your chosen direction
+
+- Identify the work you want more of.
+- Work out which knowledge and experience it requires.
+- Seek projects and responsibilities that develop those strengths.
+- Build relationships with people whose expertise complements yours.
+
+::: {.notes}
+
+Choosing intentionally can mean changing the balance of work within a current role as well as moving to a different one.
+For example, a systems engineer interested in product work could participate in user conversations and defining success, rather than only receiving an implementation specification.
+An operational engineer could seek involvement in design decisions about autonomous actions and recovery.
+
+The point is to make development choices based on the work you want to do, rather than assuming that retaining the title will preserve the job you originally chose.
+
+Sources: talk-concepts/08-a-favorable-starting-position.md and talk-candidates/02-choosing-the-work-again.md.
 
 :::
