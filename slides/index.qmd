@@ -23,7 +23,7 @@ There is lots happening right now… and I will note that death is a pre-requisi
 
 ## LLMs timeline
 
-![](images/llms-timeline-toloka.png){.timeline-figure fig-alt="Timeline of large language model development, from the Turing Test in 1950 through developments in 2025."}
+![](images/llms-timeline-toloka.png){.timeline-figure .nostretch fig-alt="Timeline of large language model development, from the Turing Test in 1950 through developments in 2025."}
 
 ::: {.image-credit}
 
