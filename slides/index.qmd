@@ -488,6 +488,12 @@ The study is correlational.
 - Git is a core technology
 - Context management is the core challenge
 
+::: {.fragment}
+
+- ... and quality
+
+:::
+
 ::: {.notes}
 
 skills, cloud, milestones, agent access/perms, vendor lock-in, worktrees
